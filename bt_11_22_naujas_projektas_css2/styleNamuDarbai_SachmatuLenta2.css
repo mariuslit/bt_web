@@ -1,0 +1,35 @@
+div{
+}
+
+div{
+	right 100px;
+	display: inline-block;
+	background-color: grey;
+	height: 100px;
+	width: 100px;
+	border: 1px solid red;
+}
+	
+a:nth-child(2){
+	background-color: blue;
+}
+b:nth-of-type(1){
+	background-color: red;
+}
+
+table{
+	border: 10px solid grey;
+}
+
+td{
+	height: 100px;
+	width: 100px;
+}
+	
+.juodas{
+	background-color: black;
+}
+
+.baltas{
+	background-color: wheat;
+}

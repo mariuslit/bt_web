@@ -1,0 +1,84 @@
+button {
+  border-radius: 5px;
+  background-color: #c8cfdc;
+}
+.mobileMenu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  background-color: #fff;
+  width: 300px;
+  z-index: 3;
+}
+.mobileMenu li {
+  border-bottom: 1px solid #c8cfdc;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+header nav {
+  padding: 20px 30px 80px 20px;
+  overflow: auto;
+  /*    font-weight: 600;*/
+  font-size: 14px;
+  color: #333333;
+}
+header nav .leftSide {
+  float: left;
+  display: inline-block;
+}
+header nav .leftSide .logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  width: auto;
+  margin-right: 30px;
+}
+header nav .leftSide a {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+header nav .leftSide a:after {
+  content: '';
+  width: 0%;
+  transition: width 0.4s linear;
+}
+header nav .leftSide a:hover:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #0089cf;
+  position: absolute;
+  left: 0px;
+  bottom: -30px;
+}
+header nav .leftSide a:hover .ddmenu {
+  display: block;
+}
+header nav .leftSide a:not(:last-of-type) {
+  margin-right: 40px;
+}
+header nav .rightSide {
+  float: right;
+  line-height: 50px;
+}
+header nav .rightSide li {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px;
+}
+header nav .rightSide li:not(:last-of-type) {
+  margin-right: 30px;
+}
+header nav .rightSide li img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+header nav .rightSide li span {
+  color: #0089cf;
+}

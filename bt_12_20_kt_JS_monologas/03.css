@@ -1,0 +1,36 @@
+/*   ekranas 1366x768 px   */
+
+body{
+	text-align: center;
+}
+
+h3{
+	padding: 5px;
+	color: #2980b9;
+	font-size: 16px;
+}
+
+.comparison{
+    background-color: #000000;
+	color: #e67e22;
+	font-size: 30px;
+	padding: 15px;
+	display: block;
+}
+
+.comparison > h3{
+	display: inline-block;
+}
+
+.rating{
+	padding: 10px;
+	color: #27ae60;
+	font-size: 24px;
+}
+
+
+
+
+
+
+

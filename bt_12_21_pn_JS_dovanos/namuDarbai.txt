@@ -1,0 +1,29 @@
+Namų darbai 2018-12-21
+
+Aprašykite mašinos konstruktorinę funkciją (arba klasę),
+    kiekviena mašina gali turėti savo greitį  (jis nurodomas sukuriant objektą),
+    pavadinimą (jis taip pat nurodomas sukuriant objektą) ir
+    nuvažiuotą atstumą (sukuriant objektą jis lygus 0).
+Mašina turi turėti metodą važiuoti(laikas),
+    kuriame galime perduoti laiko parametrą.
+    Metode apskaičiuojamas nuvažiuotas kelias (laikas*greitis)
+    ir pridedamas prie viso nuvažiuoto atstumo.
+Mašina turi turėti metodą spausdintiDuomenis(),
+    kurio metu atspausdinami mašinos duomenys
+    (pavadinimas, greitis ir nuvažiuotas kelias).
+
+Sukurkite tuščią mašinų masyvą.
+
+Sukurkite du HTML mygtukus "Pridėti mašiną" ir "Lenktyniauti".
+Sukurkite tris HTML input laukelius "Pavadinimas", "Greitis" ir laikas.
+
+Paspaudus mygtuką "Pridėti mašiną" yra
+    sukuriamas naujas mašinos objektas,
+    kuris išsaugomas mašinų masyve,
+    o jo greičio ir pavadinimo reikšmės lygios
+    input laukelių "Pavadinimas" ir "Greitis" reikšmėms.
+
+Paspaudus mygtuką "Lenktyniauti" kiekvienai mašinai
+    masyve yra iškviečiamas važiavimo metodas,
+    o jam nurodoma "Laikas" input laukelio reikšmė.
+    Įvykdžius važiavimo metoda būna atspausdinamos visos mašinos.

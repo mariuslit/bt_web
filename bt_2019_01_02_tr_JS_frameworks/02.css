@@ -1,0 +1,350 @@
+div.progressBar {
+  background-color: #5c6bc0;
+  width: 50%;
+  height: 4px;
+}
+body {
+  background-color: #f7f9fc;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+/* 1280x89px */
+header {
+  width: 100%;
+  z-index: 2;
+  text-transform: uppercase;
+}
+header nav {
+  width: 80%;
+  max-width: 955px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 75px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* --------------------- left */
+  /* --------------------- right */
+}
+header nav .leftSide {
+  width: 157px;
+  height: 33px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+}
+header nav .rightSide {
+  text-align: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+  /* [ search button turi būti 16x16 ]*/
+}
+header nav .rightSide li {
+  display: inline-block;
+  padding: 6px 0px;
+  margin: 0 15px;
+  border-bottom: 4px solid #00000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+header nav .rightSide li:first-child {
+  margin-left: 0;
+  opacity: 0.3;
+}
+header nav .rightSide li:last-child {
+  vertical-align: middle;
+  margin-right: 0px;
+}
+header nav .rightSide li:hover {
+  border-bottom: 4px solid #5c6bc0;
+  cursor: pointer;
+  opacity: 1;
+}
+header nav .rightSide .sandwich {
+  border: none;
+  background-color: #5c6bc0;
+  padding: 2px 3px 1px 3px;
+  display: none;
+}
+.section {
+  position: relative;
+  width: 80%;
+  max-width: 955px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding: 60px 100px 80px 100px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+}
+.section .blue_I_Do_Travel {
+  position: absolute;
+  top: 20px;
+  right: -12px;
+}
+.section h5 {
+  font-size: 14px;
+  color: #bdbdbd;
+  padding-bottom: 25px;
+}
+.section h2 {
+  font-size: 36px;
+  line-height: 1.25;
+  color: #000000;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #bdbdbd;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.section p {
+  margin-top: 15px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.7;
+}
+.section .specialParagraph {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+.section button {
+  font-size: 21px;
+  color: #5c6bc0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px 0px;
+  border-width: 0;
+  background-color: inherit;
+}
+.section button:hover {
+  color: #ffffff;
+  background-color: #5c6bc0;
+}
+.section h4 {
+  display: inline-block;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.302);
+  font-weight: bold;
+  vertical-align: sub;
+}
+.section .leftSide {
+  margin-top: 50px;
+  float: left;
+}
+.section .rightSide {
+  margin-top: 50px;
+  float: right;
+}
+.section .clearBoth {
+  clear: both;
+}
+.bigPicture {
+  width: 80%;
+  max-width: 955px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -------------------------------------------------- [1][2][3] */
+.pageButtons .pageButton {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  width: 17px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 8px 8px 120px 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.pageButtons .pageButton:first-child {
+  color: #ffffff;
+  background-color: #5c6bc0;
+}
+.pageButtons .pageButton:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #5c6bc0;
+}
+/* -------------------------------------------------- footer */
+footer {
+  background-color: #5c6bc0;
+  color: #ffffff;
+  padding: 35px 0px 80px 0px;
+  text-align: center;
+}
+footer img.logoFooter {
+  padding: 65px 0px;
+}
+footer ul.nav {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+  margin-bottom: 45px;
+  /* [ search button turi būti 16x16 ]*/
+}
+footer ul.nav li {
+  display: inline-block;
+  padding: 6px 0px;
+  margin: 0 15px;
+  border-bottom: 4px solid #00000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer ul.nav li:first-child {
+  margin-left: 0;
+  opacity: 0.3;
+}
+footer ul.nav li:last-child {
+  vertical-align: middle;
+  margin-right: 0px;
+}
+footer ul.nav li:hover {
+  border-bottom: 4px solid #ffffff;
+  cursor: pointer;
+  opacity: 1;
+}
+footer p.text {
+  width: 80%;
+  max-width: 955px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #949ed6;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: -0.7px;
+  padding-top: 40px;
+  border-top: 2px solid #5765b5;
+  margin-bottom: 40px;
+}
+footer div.inner {
+  width: calc(70%);
+  max-width: calc(810px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  border-top: 2px solid #5765b5;
+}
+footer div.inner h3 {
+  display: inline-block;
+  font-size: 14px;
+  color: #949ed6;
+}
+footer div.inner h5 {
+  display: inline-block;
+  font-size: 16px;
+  /*color: rgb(139, 139, 139);*/
+  line-height: 1.5;
+  text-indent: 4px;
+}
+footer div.logos {
+  display: inline-block;
+  width: 68%;
+  margin-top: 40px;
+  vertical-align: top;
+}
+footer div.logos a {
+  cursor: pointer;
+}
+footer div.logos img {
+  display: inline-block;
+  margin: 0 10px;
+}
+/*
+(min-width: 1023px) - ir desktopams ir tablet
+(max-width: 1023px) and (min-width: 667px) - tik tablet
+(max-width: 667px) tik telefonms
+*/
+@media screen and (max-width: 1023px) and (min-width: 667px) {
+  header nav {
+    width: 90%;
+    max-width: 855px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+  }
+  .section {
+    width: 90%;
+    max-width: 855px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px 30px 40px;
+  }
+  .bigPicture {
+    width: 90%;
+    max-width: 855px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pageButtons .pageButton {
+    margin-bottom: 80px;
+  }
+  footer {
+    padding: 15px 0px 40px 0px;
+  }
+  footer img.logoFooter {
+    padding: 30px 0px;
+  }
+}
+@media screen and (max-width: 667px) {
+  header nav {
+    width: 95%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+  }
+  header nav .rightSide li {
+    display: none;
+  }
+  header nav .rightSide .sandwich {
+    display: inline-block;
+  }
+  .section {
+    width: 95%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 7px 15px 7px;
+  }
+  .bigPicture {
+    width: 95%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pageButtons .pageButton {
+    margin-bottom: 60px;
+  }
+  footer {
+    padding: 10px 0px 20px 0px;
+  }
+  footer img.logoFooter {
+    padding: 10px 0px;
+  }
+  footer ul.nav {
+    margin-bottom: 15px;
+  }
+  footer p.text {
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
+  footer div.inner {
+    padding-top: 15px;
+  }
+  footer div.logos {
+    margin-top: 15px;
+  }
+}

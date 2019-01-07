@@ -1,0 +1,265 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.namudarbai{
+    border-top: 5px solid red;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.header{
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+    padding: 0px 15%;
+    /*	left: 15%;*/
+    /*	right: 15%;*/
+}
+
+.logo{
+    width: 125px;
+    height: 50px;
+}
+
+nav{
+    font-size: 0px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    /*	border: 1px solid red;*/
+    float: right;
+    vertical-align: middle;
+
+}
+
+.header-right li{
+    font-size: 11px;
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 13px;
+    margin: 11px 4px;
+    border: 1px solid rgba(14, 192, 222, 0);
+    border-radius: 13px;
+}
+
+.header-right li:last-of-type{
+    border: 1px solid rgba(14, 192, 222, 0);
+    background: rgba(14, 192, 222, 0.8);;
+    color: white;
+    white-space: nowrap;
+}
+
+.header-right li:hover{
+    border: 1px solid rgba(14, 192, 222, 1);
+    /*	border: 1px solid rgba(14, 192, 222, 1);*/
+    border-radius: 13px;
+    background: rgba(14, 192, 222, 1);;
+    color: white;
+}
+
+section{
+    width: 100%;
+
+}
+
+section{
+    display: inline-block;
+}
+
+.pastraipos{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    /*	padding: 0px 250px;*/
+}
+
+section.mountains{
+    background-image: url(images/daniel-leone-197357-unsplash.jpg);
+    margin-top: 52px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    /*    background-attachment: fixed;*/
+}
+
+
+.mountains img{
+    width: 15px;
+    padding: 0px 10px 5px 10px;
+}
+
+.star-inline{
+    display: inline-block;
+}
+
+h1{
+    font-size: 36px;
+    padding: 65px 0px 20px 0px;
+}
+
+p{
+    font-size: 18px;
+    padding-bottom: 18px;
+    line-height: 1.5;
+}
+
+.about h1{
+    color: rgba(14, 192, 222, 1);
+    font-weight: bold;
+}
+
+.about{
+    /*	border: 1px solid red;*/
+}
+.team{
+    background-color: rgba(14, 192, 222, 1);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.team ul{
+    margin: 20px 0;
+}
+.team li{
+    display: inline-block;
+    margin: 25px;
+}
+
+.team li img{
+    width: 150px;
+    border-radius: 75px;
+}
+
+.team p{
+    /*	font-family: 'Montserrat:100i', sans-serif;*/
+    /*	font-style: italic;*/
+    padding: 0;
+    font-size: 12px;
+}
+
+.team p:nth-child(3){
+    font-family: 'Montserrat:100i', sans-serif;
+    font-style: italic;
+    padding: 0;
+    font-size: 12px;
+}
+
+.team a{
+    font-size: 11px;
+    vertical-align: middle;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 13px;
+    margin: 11px 4px;
+    border: 1px solid white;
+    border-radius: 13px;
+}
+
+iframe{
+    width: 100%;
+    height: 470px;
+}
+
+/*   FOOTER   */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #45484d;
+}
+
+.footer-container{
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 0px;
+    color: white;
+}
+
+.footer-top{
+    color: #d6dde4;
+    padding: 15px 0px;
+    border-bottom: 1px solid #71767a;
+}
+
+.footer-top-left{
+    display: inline-block;
+    width: 58%;
+    vertical-align: middle;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.footer-top-left li{
+    display: inline-block;
+    font-size: 8px;
+}
+
+.footer-top-left li:nth-child(2){
+    padding: 0 20px;
+}
+
+.footer-top-right{
+    display: inline-block;
+    width: 42%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.footer-top-right li{
+    display: inline-block;
+}
+
+.footer-top-right li:nth-child(2){
+    padding: 0 20px;
+}
+
+.footer-top-right li img{
+    height: 25px;
+}
+
+/****************************/
+
+.footer-bootom{
+    color: #71767a;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.footer-bootom li{
+    font-size: 8px;
+    text-align: right;
+    display: inline-block;
+    padding: 10px 0px 10px 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

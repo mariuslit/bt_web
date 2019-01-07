@@ -1,0 +1,49 @@
+/*   ekranas 1366x768 px   */
+
+body {
+	font-family: 'Thasadith', sans-serif;
+	background-color: #00ff00;
+	background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+}
+
+.word {
+	text-align: center;
+	margin: 150px 0;
+}
+
+.letter {
+	display: inline-block;
+	font-size: 150px;
+	border-bottom: 4px solid #fff;
+	vertical-align: bottom;
+	height: 160px;
+	margin: 0 5px;
+}
+
+.progress {
+	width: 90%;
+	max-width: 600px;
+	border-right: 2px solid red;
+
+	/*border: ;*/
+	position: relative;
+}
+
+.progress .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	background-color: #fff;
+}
+
+.message{
+	margin-top: 150px;
+	text-align: center;
+	font-size: 36px;
+}
+
+
+
+

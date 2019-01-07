@@ -1,0 +1,422 @@
+/*   ekranas 1366x768 px   */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+header {
+    background-image: url("images/dviratis1.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    /*position: fixed;*/
+    /*width: 100%;*/
+    color: #4d4959;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+header nav a {
+    vertical-align: baseline;
+}
+
+header nav img {
+    vertical-align: middle;
+    padding: 0px 64px 0px 64px;
+}
+
+header span {
+    padding: 0 35px;
+}
+
+/*******************************************************/
+.newGeneration{
+    background-color: #f7f7f7;
+    padding-bottom: 140px;
+}
+
+.newGeneration iner{
+    /*padding-top: 35px;*/
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7f7f7;
+}
+
+.newGeneration img {
+    padding-top: 120px;
+}
+
+.newGeneration h2 {
+    padding-top: 35px;
+    font-size: 18px;
+    color: #272522;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.newGeneration p {
+    padding-top: 35px;
+    font-size: 18px;
+    color: #848789;
+    line-height: 1.8;
+}
+
+/********************************************************************/
+.sectionFirst {
+    width: 100%;
+    font-size: 0;
+}
+
+.sectionFirst .leftSide {
+    background-image: url("images/dviratis2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: table-cell;
+    width: 66.6666%;
+    height: auto;
+    position: relative;
+}
+
+.sectionFirst .leftSide .dviratisLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sectionFirst .rightSide {
+    display: table-cell;
+    vertical-align: bottom;
+    width: 33.3333%;
+    box-sizing: border-box;
+}
+
+/*---------------------------------------------------------- bendrosios klasÄ—s */
+/*-------------------------------------------- paragraph */
+.paragraph {
+    font-size: 18px;
+    width: 100%;
+    padding: 70px 70px 55px 70px;
+    box-sizing: border-box;
+}
+
+.paragraph img {
+    width: 40px;
+}
+
+.paragraph h2 {
+    font-size: 18px;
+    color: rgb(53, 55, 56);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+.paragraph p {
+    font-size: 16px;
+    color: rgb(132, 135, 137);
+    line-height: 1.8;
+    padding-top: 25px;
+    text-align: justify;
+}
+
+.paragraph .borderInside {
+    border-bottom: 1px solid #d7d7d7;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.imageSecond {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.triangle {
+    border-top: 10px solid #ffffff;
+    border-left: 10px solid #ffffff00;
+    border-right: 10px solid #ffffff00;
+    border-bottom: 10px solid #ffffff00;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/***************************************************** second ****/
+.sectionSecond {
+    width: 100%;
+    font-size: 0;
+    display: flex;
+}
+
+.sectionSecond .leftSide {
+    width: 33.3333%;
+}
+
+.sectionSecond .rightSide {
+    background-image: url("images/dviratis5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 66.6666%;
+}
+
+.sectionSecond .rightSide .dviratisLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/************************************************** third **/
+.sectionThird {
+    width: 100%;
+    font-size: 0;
+    display: flex;
+}
+
+.sectionThird .leftSide {
+    background-image: url("images/dviratis6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 33.3333%;
+}
+
+.sectionThird .middle {
+    width: 33.3333%;
+
+}
+
+.sectionThird .rightSide {
+    background-image: url("images/dviratis8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 33.3333%;
+}
+
+.sectionThird .rightSide .dviratisLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*********************************************** new Generation II ****/
+.newGeneration .newGeneration2 {
+    text-transform: none;
+}
+
+.newGeneration .newGeneration2 span {
+    font-weight: normal;
+}
+
+.newGeneration p {
+    font-size: 22px;
+}
+
+/******************************************   |||||||  */
+.sectionGallery {
+    background-color: #58a589;
+    font-size: 0;
+    display: flex;
+    /*display: table-cell;*/
+    /*display: inline-block;*/
+        z-index: 1;
+}
+
+.side3 {
+    width: 33.3333%;
+    height: 33.3333%;
+}
+
+.sectionGallery * {
+    position: relative;
+    /*display: inline-block;*/
+}
+
+.sectionGallery .hor1 {
+    width: 50%;
+}
+
+.sectionGallery .ver1 {
+    height: 50%;
+}
+
+.sectionGallery .hor2 {
+    width: 100%;
+}
+
+.sectionGallery .ver2 {
+    height: 100%;
+}
+
+.sectionGallery .relative {
+    position: relative;
+}
+
+.sectionGallery .dviratisLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fonas{
+    width: 
+}
+
+.greenBackground:hover{
+/*    background-color: red;*/
+    background-image: url(images/picture8/backgroundColor-64c29e.png);
+/*    opacity: 0.2;*/
+}
+
+
+/****************************************** BLACK JACK */
+.blackJack {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    color: #d7d7d7;
+}
+
+.blackJack button {
+    border: 1px solid #94979a;
+    padding: 20px 70px;
+    margin-top: 75px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/************************************ footer */
+footer{
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 100px;
+}
+
+footer img{
+}
+
+footer h3{
+    font-size: 22px;
+    color: rgb(132, 135, 137);
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 35px;
+}
+
+/*------------------------------*/
+footer  .emailBar{
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+
+footer .emailBar input{
+    border: 1px solid #d3d7d9;
+    max-width: 350px;
+    font-size: 16px;
+    color: #d3d7d9;
+    font-weight: 400;
+    font-style: italic;
+    padding: 25px;
+}
+
+footer .emailBar button{
+    background-color: #64c29e;
+    border: none;
+    color: #ffffff;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 18px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+/*----------------------------*/
+footer .inner{
+    /*background-color: yellow;*/
+    background-color: #f7f7f7;
+}
+
+footer .contacts{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0;
+    /*margin-right: auto;*/
+    /* display: flex; */
+    /*    justify-content: space-between;*/
+    /*margin-top: 200px;*/
+    /*margin-bottom: 100px;*/
+    font-size: 0px;
+    font-style: italic;
+}
+
+footer .contacts .logo{
+    display: inline-block;
+    width: 33.3333%;
+    min-width: 300px;
+    font-size: 16px;
+    vertical-align: middle;
+    color: rgb(132, 135, 137);
+}
+
+footer .contacts .logo1{
+    text-align: left;
+    line-height: 1.2;
+}
+
+footer .contacts .logo1 h4{
+    font-weight: bold;
+    font-style: normal;
+}
+
+footer .contacts .logo2{
+}
+
+footer .contacts .logo2 img:nth-child(2){
+    padding: 0 10px;
+}
+
+footer .contacts .logo3 img{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+footer .contacts .logo3 h4{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+
+
+
+
+

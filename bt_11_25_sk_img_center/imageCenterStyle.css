@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    background-image: url(images/a.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    margin: 0px;
+}
+
+img{
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    margin: 10px;
+    text-align: center;
+}

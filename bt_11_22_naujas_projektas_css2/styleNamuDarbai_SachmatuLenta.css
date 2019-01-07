@@ -1,0 +1,16 @@
+table{
+	border: 10px solid grey;
+}
+
+td{
+	height: 100px;
+	width: 100px;
+}
+	
+.juodas{
+	background-color: black;
+}
+
+.baltas{
+	background-color: wheat;
+}

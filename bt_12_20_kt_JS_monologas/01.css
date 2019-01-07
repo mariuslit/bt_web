@@ -1,0 +1,71 @@
+/*   ekranas 1366x768 px   */
+
+.chatBox {
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+	border-radius: 5px;
+	background-color: red;
+	line-height: 1.5;
+	margin: auto;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+input {
+	display: inline;
+	border: none;
+	width: 100px;
+	height: 30px;
+	overflow: auto;
+	border-radius: 5px;
+	background-color: red;
+	line-height: 1.5;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+}
+
+@keyframes shake {
+	0%{
+		left:
+				10px;
+	}
+	20%{
+		left: -10px;
+	}
+	40%{
+		left: 10px;
+	}
+	60%{
+		left: -10px;
+	}
+	80%{
+		left: 10px;
+	}
+	100%{
+		left: -10px;
+	}
+
+}
+
+.shake{
+	animation: shake 0.1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

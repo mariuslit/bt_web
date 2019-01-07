@@ -1,0 +1,25 @@
+serveryje
+
+root/public_html
+
+public_html = htdocs
+index.thml - atdaromas pirmausiai, jame gali butii nukreipimas į kitą failą
+index.php
+(kuris bus pirmiausiai užkraunma priklauso nuo serverio konfigūravimo kurį glima keisti)
+
+pagrindinė struktųra [failai]
+hederio failas
+turinio failas
+footerio failas
+apie mus
+kontaktai it kiri failai
+
+google: free domains glima gauti nemokamą dimeną ir sukelti savo puslapius, ir turėti priėjimą iš bet kur internete, ir įmonės taip pat.
+
+galima su namų interntu pasidaryti savo serverį su dinaminiu IP, 
+
+
+
+
+
+

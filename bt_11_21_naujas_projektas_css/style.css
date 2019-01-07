@@ -1,0 +1,55 @@
+.orangeText{
+	color:blue;
+}
+
+
+p {
+	width: 80%;
+	max-width: 300px;
+/*	height: 400px;*/
+}
+
+img {
+	width: 70vw; /*procentai nuo ekrano pločio*/
+/*	dar yra matavimo vienetas em kuris nurodo koks santykis su tėvinio elemento dydžiu, pagal nutylėjimą degfault vienetas yra em*/
+	opacity: none;
+}
+
+#pirmasParagrafas { /* # rašomastik ID atributui*/
+	color: #2ecc71;
+	background-color: #1abc9c;
+	background-image: url(images/pattern.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: contain;
+	background-attachment: fixed;
+	/*border-collapse: collapse; !*tinka lentelėms*!*/
+	
+/*
+	border-width: 2px;
+	border-style: double;
+	border-color: crimson;
+*/
+/*	galima paversti į vieną eilutę*/
+	border: 2px double #1abc9c;
+	border-top-color: darkblue;
+	border-radius: 15px;
+}
+
+.circle{ /* nepanaudotas*/
+	widows: 15px;
+	height: 5px;
+}
+
+p:nth-of-type(1){
+	background-color: darkcyan;
+}
+
+p:nth-of-type(2){
+	background-color: darkorchid;
+}
+
+/*
+užduotis
+padaryti viska su css faile
+*/

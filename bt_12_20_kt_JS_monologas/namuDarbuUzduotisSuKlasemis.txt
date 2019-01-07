@@ -1,0 +1,26 @@
+Sukurkite studento klasę (Studentas),
+*   kuri turėtų vardo,
+*   pavardės
+*   ir pažymių atributus (pažymius saugokite masyve).
+    Atributai turi būti priskiriami kuriant objektą.
+
+Studentas turi turėti metodus:
+*   Pažymių vidurkio apskaičiavimo metodą.
+*   Naujo pažymio pridėjimo metodą.
+        (Jei į masyvą norite pridėti naują reikšmę
+        naudokite masyvoPavadinimas .push(NAUJAREIKŠMĖ) metodą)
+*   Duomenų atspausdinimo metodą.
+    Turi būti atspausdinamas studento vardas,
+    pirmoji pavardės raidė ir
+    pažymių vidurkis.
+        Jei studento vidurkis 7 ar didesnis,
+        būna atspausdinamas užrašas "šaunuolis!".
+
+Sukurkite bent du studentus ir panaudokite duotus metodus.
+
+Papildoma užduotis:
+*   Studentui sukurti palyginimo metodą,
+    kuriame per argumentą galime perduoti kito studento objektą
+*   ir tada būtų atspausdinama,
+    kurio studento vidurkis aukštesnis.
+// todo

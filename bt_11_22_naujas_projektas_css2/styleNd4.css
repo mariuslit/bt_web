@@ -1,0 +1,57 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/blur-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.square{
+    opacity: 0.95;
+    background-color: white;
+    color: white;
+    border-radius: 0.6vw;
+    width: 66vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
+
+.paragrafas{
+    
+    flex: 1;
+    width: 20vw;
+    min-width: 10vw;
+    border-radius: 0.9vw;
+    display: inline-block;
+    padding: 1.8vw 3vw 3vw 2.4vw;
+    margin: 2vw 3vw;
+}
+
+p{
+	font-size: 0.85vw;
+    line-height: 135%;
+}
+
+h3{
+    font-size: 1.8vw;
+    font-weight: normal;
+    margin: 0 0 12px 0;
+}
+
+
+.blueBackground{
+	background-color: #70a1ff;
+}
+
+.redBackground{
+	background-color: indianred;
+}
+/*
+
+xxx{
+    margin: 0
+}*/

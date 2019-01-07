@@ -1,0 +1,27 @@
+{
+  "people": [
+    {
+      "mm": "mm",
+      "name": "John++",
+      "miestas": "New York",
+      "xxx": "xxx xxx xxx",
+      "age": 5
+    },
+    {
+      "name": "Brad",
+      "age": 56
+    },
+    {
+      "name": "John",
+      "age": 32
+    },
+    {
+      "name": "Marius",
+      "age": 44
+    },
+    {
+      "name": "Sara",
+      "age": 24
+    }
+  ]
+}

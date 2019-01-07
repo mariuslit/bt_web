@@ -1,0 +1,28 @@
+
+
+
+.pirmobloko-container {
+    margin: 50px 0;
+}
+
+.antrobloko-container {
+    margin: 50px 0;
+}
+
+.overflow {
+    width: 100px;
+    height: 200px;
+    background: #dcdcdc;
+    overflow-y: scroll;
+}
+
+#slideris .kalsespavadinimas p {
+    background: blue;
+}
+
+html .antrobloko-container .calc {
+    width: calc(100% - 150px);
+    background: red;
+    height: 50px;
+}
+

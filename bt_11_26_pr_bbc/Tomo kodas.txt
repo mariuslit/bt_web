@@ -1,0 +1,49 @@
+Tomo kodas
+
+
+.nuoroda{
+    display: inline-block;
+    background-color: aqua;
+    width: 80px;
+}
+
+.nuoroda a img{
+    width: 30px;
+    height: auto;
+}
+.kamuliukai ul li{
+    display: inline-block;
+}
+
+.nuoroda:hover{
+    border: 2px solid red;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+    border-radius: 7px;
+
+}
+<div class="kamuliukai">
+                    <ul>
+                        <li class="nuoroda">
+                            <a href=""> 
+                                <img src="images.jpg")>
+                                <p>Community Edition</p>
+                            </a>
+                        </li>
+
+                        <li class="nuoroda">
+                            <a href=""> 
+                                <img src="images.jpg")>
+                                <p>Complete Process</p>
+                            </a>
+                        </li>
+
+                        <li class="nuoroda">
+                            <a href=""> 
+                                <img src="images.jpg")>
+                                <p>Please Sing up</p>
+                            </a>
+                        </li>
+
+                    </ul>

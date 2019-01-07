@@ -1,0 +1,326 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    color: #1d009c;
+    background-image: url(images/clean-drop-of-water-liquid-40784.jpg);
+    background-size: cover;
+    background-position: center;
+    /*	position: fixed;*/	/*	opacity: 0.7;*/
+}
+
+header .inner{
+    width: 90%;
+    max-width: 1060px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+header .inner nav{
+    border-bottom: 1px solid rgba(0,0,0,0.7);
+    padding: 20px 0px;
+    font-size: 15px;
+    overflow: auto;
+    margin-bottom: 150px;
+}
+
+header .inner nav .leftSide{
+    float: left;
+}
+
+header .inner nav .leftSide .logo{
+    height: 45px;
+    width: auto;
+    vertical-align: middle;
+    padding-right: 30px;
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+header .inner nav .leftSide .phoneIcon{
+    height: 16px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 8px;
+}
+
+header .rightSide{
+    float: right;
+    line-height: 30px;
+}
+
+header .rightSide li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .rightSide li:not(:last-child){
+    margin-right: 30px;
+}
+
+header .rightSide li.button{
+    background-color: #9bb0da;
+    border-radius: 3px;
+    padding: 15px 20px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+header .inner h2{
+    font-size: 48px;
+    width: 90%;
+    max-width: 815px;
+    margin: auto;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+header .inner button{
+    background-color: #433191;
+    color: white;
+    font-size: 16px;
+    padding: 20px 25px;
+    border: none;
+    font-family: inherit;
+    border-radius: 3px;
+}
+
+/*                SELECTION                */
+section .inner{
+    width: 90%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 80px 0 110px 0;
+    text-align: center;
+    font-size: 0px;
+}
+
+section .inner h3{
+    font-size: 32px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 60px;
+
+}
+
+section .inner h3:after{
+    content: '';
+    height: 1px;
+    width: 10%;
+    max-width: 65px;
+    background-color: #433191;
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section .inner > p{
+    width: 90%;
+    max-width: 710px;
+    margin: auto;
+    line-height: 1.5;
+    color: #030d0f7a;;
+    margin-bottom: 75px;
+    font-size: 16px;
+}
+
+section .third{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+section .third:nth-of-type(2){
+    margin: 0% 5%;
+}
+
+section .third img{
+    max-width: 64px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+section .third h4{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+section .third p{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #030d0f7a;
+    font-weight: 300;
+}
+
+section.grey{
+    background-color: lightgreen;
+}
+
+section.grey .third{
+    text-align: left;
+}
+
+section.grey .third img{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+section.grey .third h4{
+    margin-bottom: 10px;
+}
+
+.cta{
+    background-image: url(images/daniel-leone-197357-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cta .inner{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 0px;
+    color: red;
+    font-size: 0px;
+}
+
+.cta .inner *{
+    font-size: 16px;
+}
+
+.cta .inner .leftSide{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.cta .inner .rightSide{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    background-color: #244245;
+    text-align: center;
+    padding: 17px 23px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    opacity: 0.95;
+}
+
+.cta .inner .leftSide h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.cta .inner .leftSide p{
+    line-height: 1.5;
+}
+
+footer .eminem {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 100px;
+    font-size: 0;
+}
+
+footer .eminem * {
+    font-size: 16px;
+}
+
+footer .eminem .quarter {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+footer .eminem .quarter h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer .eminem .quarter li {
+    line-height: 2;
+    color: #bdc3c7;
+}
+
+footer .eminem .quarter p {
+    line-height: 1.5;
+    color: #bdc3c7;
+    margin-bottom: 20px;
+}
+
+footer .eminem .quarter .inputWrapper {
+    position: relative;
+}
+
+footer .eminem .quarter .inputWrapper input {
+    width: 100%;
+    padding: 13px 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ecf0f1;
+    border-radius: 3px;
+    padding-right: 40px;
+    outline: none;
+}
+
+footer .eminem .quarter .inputWrapper img {
+    position: absolute;
+    height: 16px;
+    width: auto;
+    right: 15px;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+footer .footerBottom {
+    margin-top: 70px;
+    border-top: 1px solid #ecf0f1;
+    padding: 12px 0px;
+    overflow: auto;
+}
+
+footer .footerBottom .rightSide {
+    float: right;
+    display: inline-block;
+}
+
+footer .footerBottom .leftSide {
+    display: inline-block;
+    line-height: 32px;
+}
+
+footer .footerBottom .rightSide li,
+footer .footerBottom .rightSide a,
+footer .footerBottom .rightSide img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer .footerBottom .rightSide li {
+    margin-left: 5px;
+}
+
+footer .footerBottom .rightSide img {
+    height: 32px;
+    width: auto;
+}
+
+
+
+

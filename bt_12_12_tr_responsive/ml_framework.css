@@ -1,0 +1,12 @@
+.ml_colors {
+	color: #ff8b38;               /* oranžinė */
+	background-color: #f5f5f5;    /* labai šviesiai pilkas fonas */
+	border-top-color: #86878B;    /* pilkos raidės baltame fone*/
+	border-bottom-color: #7f7f7f; /* pilkos raidės blankesnės baltame fone*/
+	border-left-color: #333333;   /* (TAB 1-2-3) tamsiai pilkas fonas */}
+
+h1 {font-size: 36px; /*    8,64 pt = 26 pixel */}
+h3 {font-size: 20px; /*    4,8  pt = 15 pixel */}
+h5 {font-size: 16px; /*    3,84 pt = 12 pixel */}
+p  {font-size: 12px; /*    3,36 pt = 10 pixel GREY ( BUTTON )*/}
+

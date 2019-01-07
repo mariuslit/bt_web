@@ -1,0 +1,9 @@
+visi elementai yra block
+kaip pieðinëlyje sudëti div vienas á kità
+
+div class=conteiner
+
+padaryti tik su CSS naudojant tik klases
+itraukti fonta
+
+be psiaudo elementø

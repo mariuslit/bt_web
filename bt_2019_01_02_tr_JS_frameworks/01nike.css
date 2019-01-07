@@ -1,0 +1,11 @@
+/* Less failas, jis verčiamas į .css per Koala programą*/
+body {
+  background-color: #ff0000;
+}
+body header nav {
+  padding: 20px 30px 80px 20px;
+  overflow: auto;
+  /*    font-weight: 600;*/
+  font-size: 14px;
+  color: #003333;
+}

@@ -1,0 +1,24 @@
+@media
+
+pirmiausiai darome dideliems ekranams (desktop -> table -> phone)
+media isada raðoma CSS gale
+
+
+(max-width: 1023px) - ir telefonms ir tablet
+(max-width: 1023px) and (min-width: 667px) - tik tablet
+(max-width: 667px) tik telefonms
+
+------------------
+667-1023 planðetës
+
+iki 677 telefonai
+
+rzoliucijos
+full HD
+1080x920
+ádëjus meta tagà jis laikomas css suprantama tagà
+view port
+400x600 vp
+
+ðá árenginá atvaizduoti kaip 
+<meta name="viewport" conttent="devise-width:">

@@ -1,0 +1,66 @@
+body {
+    font-family: 'Staatliches', cursive;
+    
+    background: #4cb8c4;
+    background: -webkit-linear-gradient(to right, #4cb8c4, #3cd3ad); 
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+    
+    color: #fff;
+}
+
+.word {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.letter {
+    display: inline-block;
+    font-size: 150px;
+    border-bottom: 4px solid #fff;
+    width: 80px;
+    vertical-align: bottom;
+    height: 160px;
+    margin: 0px 5px;
+}
+
+.progress {
+    width: 90%;
+    max-width: 600px;
+    border: 4px solid #fff;
+    height: 25px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.progress .bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    transition: width 0.2s linear;
+}
+
+.message {
+    margin-top: 150px;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

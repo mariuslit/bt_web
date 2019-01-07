@@ -1,0 +1,39 @@
+body{
+    position: relative;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    animation-name: animacija;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.0s;/*prdeda ne iškarto*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+@keyframes animacija{
+    0%{
+        background-color: red;
+        border-radius: 0%;
+        left: 0px;
+        top: 0px;
+    }
+    75%{
+        background-color: yellow;
+        border-radius: 50%;
+        left: 500px;
+        top: 500px;
+    }
+    100%{
+        background-color: blue;
+        border-radius: 0%;
+        left: 50px;
+        top: 0px;
+    }
+}
+

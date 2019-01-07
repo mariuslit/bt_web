@@ -1,0 +1,54 @@
+
+*{
+    text-align: right;
+}
+
+.container{
+	position: relative;
+	background-color: #70a1ff;
+	height: 250px;
+	width:  400px;
+}
+    
+.block{
+    background-color: #487eb0;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    margin-bottom: 5px;
+}
+
+.next{
+    top: 105px;
+}
+.blockstroked{
+/*	position: relative;*/
+	background-color: #487eb0;
+	height: 86px; 
+	width: 86px;
+    margin: 10px 0px 10px 2px;
+	border: 7px solid black;
+}
+
+.rectangle{
+	position: relative;
+	background-color: #B53471;
+	width:  250px; 
+	height: 100px; 
+}
+
+.rectangle .block{
+	position: absolute;
+	background-color: red;
+	height: 100px; 
+	width:  100px; 
+	top: 0px;
+    left: 0px;
+}
+
+.stroked{
+	background-color: #f1c40f;
+	margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+.lfoatingleft{
+    float: left;
+}
+
+.logo-wrapper{
+    width: 30%;
+}
+
+.menu-wrapper{
+    width: 70%;
+}
+
+.clear{
+    clear: both;
+}
+

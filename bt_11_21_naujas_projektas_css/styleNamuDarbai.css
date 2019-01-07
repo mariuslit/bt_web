@@ -1,0 +1,78 @@
+body{
+	background-color: #f1f2f6;
+	font: italic bold 12px/30px Georgia, serif;
+}
+
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	background-color: #747d8c;
+}
+
+h3{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	background-color: #a4b0be;
+	font: bold;
+}
+
+ul{
+	list-style-image: url(images/ok-appproval-acceptance.png);
+	color: #eccc68;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}	
+
+tr:nth-of-type(even){
+	background-color: #f1f2f6;
+}
+tr:nth-of-type(odd){/* + antraštė */
+	background-color: #dfe4ea;
+}
+
+td{
+	border: 1px solid lightgrey;
+}
+
+.antrasteh{
+	background-color: #a4b0be;
+	border-bottom: 2px solid #747d8c;
+}
+
+.thLeft{
+	border-top-left-radius: 17px;
+}
+
+.thMid{
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+.thRight{
+	border-top-right-radius: 17px;
+}
+
+.lentele{
+	text-align: left;
+	text-indent: 10px;
+    padding: 10px;
+    text-align: left;
+	border-collapse: collapse;
+	border-color: #747d8c;
+/*	lentelės centravimas */
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.laukas td{
+	background-color: #f1f2f6;
+	border: none;
+}
+
+
+
+

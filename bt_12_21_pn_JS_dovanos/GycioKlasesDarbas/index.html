@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <div class="form">
+            <input placeholder="Pavadinimas" id="giftName">
+            <input placeholder="Kaina" id="giftPrice">
+
+            <select id="giftCategory">
+                <option value="zaislai">Žaislai</option>
+                <option value="pinigai">Pinigai</option>
+                <option value="rubai">Rūbai</option>
+            </select>
+
+            <button id="addButton">Pridėti</button>
+        </div>
+
+        <table>
+            <tr>
+                <th>Pavadinimas</th>
+                <th>Kategorija</th>
+                <th>Kaina</th>
+            </tr>
+
+            <tbody id="tableBody">
+            </tbody>
+
+        </table>
+    </body>
+</html>

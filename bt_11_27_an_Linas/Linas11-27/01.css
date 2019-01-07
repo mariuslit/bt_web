@@ -1,0 +1,61 @@
+div {
+
+}
+
+.l {
+    float: left;
+    background-color: lime;
+}
+
+.pagalbinis {
+    margin: 0 150px;
+    width: 100%;
+    background: none;
+}
+
+.r {
+    float: right;
+    background-color: red;
+}
+
+.r {
+    background-color: cyan;
+}
+
+.clear {
+    clear: both;
+}
+
+.floatingleft  {
+    float: left;
+}
+.logo-wrapper {
+    width: 30%
+}
+
+.menu-wrapper {
+    width: 70%
+}
+
+.menu-wrapper ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 35px;
+    float: right;
+}
+
+.menu-wrapper ul li {
+    display: inline-block;
+}
+
+.menu-wrapper ul li a {
+    padding: 15px;
+    background: #dcdcdc;
+    margin: 5px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}

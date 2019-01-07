@@ -1,0 +1,17 @@
+lietuvių kalbos daiktavardžiai
+
+šaltinis http://donelaitis.vdu.lt/main.php?id=4&nr=2
+download TXT failas -	585KB	dazninis-TXT.zip
+
+apdorotas su Excel:
+1 filter =dkt
+2 Remove Duplicates
+3 kadangi žodžių per dauk išfilratavau kas šimtąjį atsitiktinį
+        =ROUNDDOWN(RAND()*100;0)
+        filter =1
+4 paruošiau įkėlimui į JS array formatu:
+        =CONCATENATE("'";"žodis";"',")
+
+visi žodžiai (155'444 žodžių) patalpinti į failą 02wordsLt15444.json
+
+

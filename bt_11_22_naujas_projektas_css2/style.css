@@ -1,0 +1,72 @@
+body{
+	/*	teksto savybes paveledi visi vaikiniai elementai */
+	/*	kiti objektai nepaveldi tėvinių savybių 1*/
+	text-align: center;
+}
+
+.block.one{
+	background-color: lightyellow;
+	height: 400px;
+	width:  400px;
+	font-size: 14px;
+	text-align: justify;
+	border: 10px solid blue;
+	padding: 10px 20px 40px 30px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+/*
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	turi išcentuoti blocko tipo elementus
+*/
+}
+
+p{
+	text-decoration: underline;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-indent: 15px;
+	line-height: 1.5;
+}
+
+.one, .two{/* ir */
+	background-color: red;
+}
+
+.two h2{ /*visi elementai kurie yra .two klsės ir jame yra h2 taguai*/
+	/*	ima visus */
+}
+
+nav{
+	width: 500px;
+	line-height: inherit;
+	background-color: #bdc3c7;
+	color: #e74c3c;
+	text-align: left;
+
+	position: relative;
+	/*relitiv nukelia elementa bet jo starinė pozicija liko ta pati, ir kiti elementai laiko jį nepajudintu*/
+
+	position: fixed;
+	/*	fixed pozicijos elementai yra atvaizduojami nuo reliatyviai nuo ekrano view port, šio elemento kiti elemenri nemato*/
+
+	position: absolute;
+	/*	absoliute pozicijos elemmentas atvaizduojamas nuo tėvinio elemento kairio viršutinio bloko, tačiau tėvinis elementas turi būti, bet kokios tik ne statik pozicijos*/
+	left: -100px;
+	top: 100px;
+
+}
+
+nav li{
+	display: inline-block;
+	list-style-type: non;
+	margin: 10px;
+}
+
+
+
+
+
+

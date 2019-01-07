@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: #fff;
+    background-image: url(images/StockSnap_BGKGBRMACM.jpg);
+    background-size: cover;
+    background-position: center;
+    /*    background-attachment: fixed;*/
+}
+
+header .inner {
+    width: 90%;
+    max-width: 1060px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+header .inner nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 0px;
+    font-size: 15px;
+    overflow: auto;
+    margin-bottom: 150px;
+}
+
+header .inner nav .leftSide {
+    float: left;
+}
+
+header .inner nav .leftSide .logo {
+    height: 45px;
+    width: auto;
+    vertical-align: middle;
+    padding-right: 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+header .inner nav .leftSide .phoneIcon {
+    height: 16px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 8px;
+}
+
+header .rightSide {
+    float: right;
+    line-height: 30px;
+}
+
+header .rightSide li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .rightSide li:not(:last-child) {
+    margin-right: 30px;
+}
+
+header .rightSide li.button {
+    background-color: #e74c3c;
+    border-radius: 3px;
+    padding: 15px 20px;
+    cursor: pointer;
+    line-height: 1; /*1em*/
+}
+
+header .inner h2 {
+    font-size: 48px;
+    width: 90%;
+    max-width: 815px;
+    margin: auto;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+header .inner button {
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 25px;
+    border: none;
+    font-family: inherit;
+    border-radius: 3px;
+}
