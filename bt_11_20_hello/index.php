@@ -65,9 +65,9 @@ stulpeliu galima rašyti trimis skirtingais būdais:
                 <td>Telefono numeris</td>
             </tr>
             <tr>
-                <td>Marius</td>
-                <td>Litvinas</td>
-                <td>+370 69139130</td>
+                <td>Darius</td>
+                <td>Petraitis</td>
+                <td>+370 56556556</td>
             </tr>
             <tr>
                 <td>xxx</td>
