@@ -1,0 +1,70 @@
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.lenta{
+    display: inline;
+    /*    opacity: 0.1;*/
+    font-size: 0;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+div.juoda {
+    background: #b8e994;
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div.balta {
+    background: #fad390;
+/*    opacity: 0.5;*/
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.robotukas{
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    background: url("/1_KCS_pirmasWEB/nao.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    z-index: 1;
+}
+
+.mygtukai{
+    display: inline-block;
+}
+
+.mygtukas{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.block{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.left-right{
+    display: inline;
+}
