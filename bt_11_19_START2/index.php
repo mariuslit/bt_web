@@ -38,7 +38,7 @@
             <tbody>
                 <tr>
                     <td><b>3 sav.</b>
-                        <a class="red" href="/">VISŲ PROJEKTŲ katalogai</a>
+                        <a href="/"><span class="months aa red">VISŲ PROJEKTŲ katalogai</span></a>
                         <a><span class="months">SAUSIS</span></a>
                         <!--
 <a class="weekend">01-20 sk</a>
@@ -58,10 +58,11 @@
                         <a>01-11 pn PRAKTIKA</a>
                         <a>01-10 kt</a>
                         <a>01-09 tr</a>
-                        <a>01-08 an</a>
                         <!----------------------------------------------------------- TODAY -->
-                        <a class="aa" href="/bt_2019_01_07_pr_php/index.php">01-07 pr naujas projektas</a>
+                        <a class="aa" href="/wordpress/index.php">01-08 an wordpress Palo Alto</a>
+                        <a class="aa" href="/bt_2019_01_08_an_wordpress/index.php">01-08 an wordpress mano</a>
                         <!----------------------------------------------------------- TODAY -->
+                        <a class="" href="/bt_2019_01_07_pr_php_sql/index.php">01-07 pr <span class="red">php, sql</span></a>
                     </td>
                 </tr><!-- 2 -->
                 <tr>
@@ -70,7 +71,7 @@
                         <a class="weekend">01-05 št</a>
                         <a>01-04 pn PRAKTIKA</a>
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
-                        <a class="" href="/bt_2019_01_03_kt_canvas_games/index.php">01-03 kt <span class="red">framework: Canvas</span> grafinis framework'as, žaidimo kūrimas - kubelių gaudynės</a>
+                        <a class="aa" href="/bt_2019_01_03_kt_canvas_games/index.php">01-03 kt <span class="red">framework: Canvas</span> grafinis framework'as, žaidimo kūrimas - RAKETŲ GAUDYKLĖ</a>
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <a class="" href="/bt_2019_01_02_tr_JS_frameworks/index.php">01-02 tr <span class="red">framework: JQuery, Less + Koala</span>, nd: layout <span class="red">Palo Alto</span>, eksperimentas su margin'ais</a>
                         <a><span class="months">01-01 an Naujieji metai 2019</span></a>

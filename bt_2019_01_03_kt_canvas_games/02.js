@@ -1,9 +1,9 @@
-var ctx = document.getElementById('canvas2').getContext("2d");
-var img = new Image();
-img.onload = function () {
-    ctx.drawImage(img, 0, 100, 50, 50);
-};
-img.src = "images/player.png";
+// var ctx = document.getElementById('canvas2').getContext("2d");
+// var img = new Image();
+// img.onload = function () {
+//     ctx.drawImage(img, 0, 100, 50, 50);
+// };
+// img.src = "images/player.png";
 
 
 let UI = {
@@ -47,11 +47,11 @@ class Game {
         this.ctx = this.canvas.getContext('2d');
 
         this.player = new Player(this.ctx);
-        this.enemy = new Enemy(this.player);
+        this.enemy = new Enemy(this.ctx); // this.player
 
         this.previousFrameTime = Date.now();
         // setInterval(this.update.bind(this), 30); // bus kartojama 30 kadrų per sekundę
-        window.requestAnimationFrame(this.update.bind(this)); // bus kartojame meksimaliu skaičiumi per sekundę
+        window.requestAnimationFrame(this.update.bind(this)); // bus kartojame maksimaliu skaičiumi per sekundę
     }
 
     update() {
@@ -96,10 +96,8 @@ class Player {
 
     constructor(ctx) {
         this.ctx = ctx;
-        // this.ctx = document.getElementById('canvas1').getContext("2d");
-        this.x = 10;
+        this.x = 100;
         this.y = 250;
-        // this.size = 30;
         this.speed = 200;
         this.img = new Image();
         this.img.src = 'images/player.png';
@@ -130,12 +128,9 @@ class Player {
         var x = this.x + 100;
         var y = this.y;
         var img = this.img;
-            ctx2.drawImage(img, x, y, 50, 50);
-        // img.onload = () => {
-        //     ctx.fillStyle = "red";
-        //     ctx.fillRect(x, y, 500, 500);
-        // };
-        img.src = this.img.src;
+        // img.src = this.img.src;
+        this.ctx.drawImage(this.img, this.x, this.y, playerSizeX, playerSizeY);
+        this.img.src = "images/player.png";
 
         ctx.fillStyle = '#16a085';
         ctx.fillRect(this.x, this.y, playerSizeX, playerSizeY);
@@ -144,9 +139,8 @@ class Player {
 
 class Enemy {
 
-    constructor(player) {
-        this.ctx = UI.canvas1.getContext("2d");
-        // this.ctx = document.getElementById('canvas1').getContext("2d");
+    constructor(ctx) {
+        this.ctx = ctx;
         this.img = new Image();
         this.x = cnvasSizeX;
         this.y = this.getRandom();
@@ -172,14 +166,14 @@ class Enemy {
     draw(context) {
         // context.fillStyle = 'red';
         // context.fillRect(this.x, this.y, this.size, this.constSizeY);
-        this.drawEnemyPicture(this.x, this.y, this.ctx, this.img);
-    };
-
-    drawEnemyPicture(x, y, ctx, img) {
-        img.onload = function () {
-            ctx.drawImage(img, x, y, enemySizeX, enemySizeY);
-        };
-        img.src = "images/enemy.png";
+    //     this.drawEnemyPicture(this.x, this.y, this.ctx, this.img);
+    // };
+    //
+    // drawEnemyPicture(x, y, ctx, img) {
+        this.ctx.drawImage(this.img, this.x, this.y, enemySizeX, enemySizeY);
+        // this.img.onload = function () {
+        // };
+        this.img.src = "images/enemy.png";
         if (this.x < -enemySizeX) {
             this.ctx.clearRect(0, 0, cnvasSizeX, cnvasSizeY);
             this.reset();

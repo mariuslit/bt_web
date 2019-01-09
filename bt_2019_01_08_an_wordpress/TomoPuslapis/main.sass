@@ -1,0 +1,288 @@
+\:root
+	--bg: #f7f9fc
+	--highlight: #5c6bc0
+	--nav: #333333
+	--body: #414141
+	--head: #000000
+	--alt: #ffffff
+	--date: #bdbdbd
+	--tags: #b2b2b2
+	--sep: #eeeeee
+	--alt-logo: #4a569a
+	--alt-sep: #5765b5
+	--alt-body: #909ad4
+	--first-p: #7f7f7f
+
+
+a
+	text-decoration: none
+	color: inherit
+	font: inherit
+
+
+body
+	background-color: var(--bg)
+	font-family: 'Lato', sans-serif
+	font-size: 17px
+
+
+.content
+	width: 90%
+	max-width: 950px
+	margin: auto
+
+
+header
+
+	.content
+
+		display: flex
+		justify-content: space-between
+		align-items: baseline
+		color: var(--nav)
+		padding: 75px 0
+
+		.logo
+			font-weight: 700
+			font-style: italic
+			font-size: 42px
+
+		.menu
+			display: none
+			margin-right: 40px
+
+			img
+				width: 32px
+
+		ul
+			list-style: none
+			display: inline-block
+
+			li
+				display: inline-block
+				margin-right: 35px
+
+				a
+					position: relative
+					font-weight: 700
+					font-size: 16px
+					color: var(--nav)
+					text-decoration: none
+
+					&:hover::after
+						content: ''
+						position: absolute
+						bottom: -8px
+						left: 0
+						width: 100%
+						height: 4px
+						background-color: var(--highlight)
+
+
+article
+	background-color: var(--alt)
+	margin-bottom: 50px
+
+	.aheader
+
+		img
+			width: 100%
+
+	.abody
+		position: relative
+		padding: 1px 100px
+
+		h4
+			position: absolute
+			top: 20px
+			right: 0
+			transform: translateX(10%)
+			padding: 10px 13px
+			margin: 0
+			background-color: var(--highlight)
+			font-weight: 700
+			font-size: 14px
+			color: var(--alt)
+
+		h6
+			font-weight: 700
+			font-size: 14px
+			color: var(--date)
+			margin: 50px 0 30px 0
+
+		h1
+			font-weight: 700
+			font-size: 40px
+			color: var(--head)
+			margin: 0
+			margin-bottom: 50px
+
+		div.sep
+			width: 100%
+			height: 2px
+			background-color: var(--sep)
+
+		p
+			font-size: 17px
+			color: var(--head)
+			line-height: 30px
+			margin: 50px 0
+
+			&:first-of-type:not(:last-of-type)
+				font-style: italic
+				font-size: 25px
+				color: var(--first-p)
+				line-height: 37px
+
+		.afooter
+			display: flex
+			justify-content: space-between
+			align-items: baseline
+			margin-bottom: 80px
+
+			a
+				text-transform: uppercase
+				font-weight: 700
+				font-size: 21px
+				color: #5c6bc0ff
+
+			.tags a
+				font-size: 15px
+				color: var(--tags)
+
+
+div.pagination
+
+	.pages
+		text-align: center
+		margin-bottom: 115px
+
+		button
+			width: 42px
+			height: 42px
+			font-weight: 700
+			font-size: 18px
+			color: var(--nav)
+			background-color: var(--alt)
+			border: 1px solid var(--nav)
+			cursor: pointer
+
+			&:hover, &.selected
+				color: var(--alt)
+				background-color: var(--highlight)
+				border-color: var(--highlight)
+
+
+footer
+	background-color: var(--highlight)
+	text-align: center
+	padding: 70px 0 80px 0
+
+	.logo
+		font-weight: 700
+		font-style: italic
+		font-size: 36px
+		color: var(--alt-logo)
+		margin-bottom: 65px
+
+	.menu
+		list-style: none
+		margin-bottom: 45px
+
+		li
+			display: inline-block
+
+			&:not(:last-of-type)
+				margin-right: 40px
+
+			a
+				font-weight: 700
+				font-size: 16px
+				color: var(--alt)
+
+				&:hover
+					opacity: 0.4
+
+	.sep
+		width: 100%
+		height: 2px
+		background-color: var(--alt-sep)
+		margin-bottom: 40px
+
+	.info
+		font-size: 13px
+		color: var(--alt-body)
+		line-height: 25px
+		margin-bottom: 40px
+
+	.copy
+		font-size: 14px
+		color: var(--alt-body)
+		line-height: 25px
+		margin-bottom: 40px
+
+		a
+			color: var(--alt)
+
+	.social
+		list-style: none
+
+		li
+			display: inline-block
+
+			&:not(:last-of-type)
+				margin-right: 25px
+
+
+@media (max-width: 750px)
+
+	header
+
+		.content
+
+			nav
+				position: relative
+
+				.menu
+					display: inline-block
+
+				ul
+					display: none
+					position: absolute
+					bottom: 0
+					right: 0
+					transform: translateY(100%)
+					padding: 0
+					margin: 0
+					background-color: var(--alt)
+					z-index: 3
+
+					li
+						display: block
+						margin: 0
+
+						a
+							display: block
+							padding: 25px 40px
+
+							&:not(:last-of-type)
+								border-bottom: 1px solid var(--nav)
+
+							&:hover::after
+								bottom: 17px
+
+				.menu + ul:hover, .menu:focus + ul
+					display: block
+
+
+@media (max-width: 650px)
+
+	article
+
+		.abody
+
+			.afooter
+				flex-flow: column nowrap
+
+				a:first-of-type
+					margin-bottom: 40px
