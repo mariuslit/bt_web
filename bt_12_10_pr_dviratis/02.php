@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Nam.d.</title>
+        <title>Dviračių galerija</title>
         <meta charset="utf-8">
 
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">

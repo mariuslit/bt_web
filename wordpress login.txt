@@ -1,0 +1,30 @@
+Palo Alto
+admin
+password123
+mariuslit@yahoo.com
+
+--------------
+ATSISKAITOMASIS DARBAS - RESTORANAS PATATA:
+
+Database Name	
+wordpress2
+
+Username	
+root
+
+Password	
+// nieko
+
+Database Host
+localhost
+
+
+Table Prefix	
+wp2_
+---
+Patata
+admin
+TSGQdqK6Dv7S
+mariuslit@yahoo.com
+
+	

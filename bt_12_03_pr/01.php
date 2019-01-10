@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Klases darbas</title>
+        <title>Vanduo</title>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Roboto:100,100i,300,300i,400,400i,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="files/reset.css">

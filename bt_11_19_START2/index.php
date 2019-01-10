@@ -21,58 +21,58 @@
         <header>
             <a href="/bt_2019_01_%20zerooooooooooooooooooooooooo/index.php">
                 <div class="zero">ZERO</div>
+                <div class="zero2">START senas</div>
             </a>
 
             <h1>Baltic talents - Java kursas</h1>
 
         </header>
 
-        <a class="startSenaVersija" href="/bt_11_19_START/index.php">START sena versija</a>
+<!--                <a class="startSenaVersija" href="/bt_11_19_START/index.php">START sens</a>-->
 
         <table>
 
             <tr>
-                <th>Naujas projektų valdymas (planuojama kursų pabaiga 05-03)
-                </th>
+                <!--                <th>Naujas projektų valdymas (planuojama kursų pabaiga 05-03)-->
+                <!--                </th>-->
             </tr>
             <tbody>
                 <tr>
                     <td><b>3 sav.</b>
-                        <a href="/"><span class="months aa red">VISŲ PROJEKTŲ katalogai</span></a>
                         <a><span class="months">SAUSIS</span></a>
                         <!--
 <a class="weekend">01-20 sk</a>
 <a class="weekend">01-19 št</a>
 <a>01-18 pn PRAKTIKA</a>
 -->
-                        <a>01-17 kt <span class="red">web paskutinė paskaita</span></a>
-                        <a>01-16 tr</a>
-                        <a>01-15 an</a>
-                        <a>01-14 pr</a>
+                        <!--                        <a>01-17 kt <span class="red">web paskutinė paskaita</span></a>-->
+                        <!--                        <a>01-16 tr</a>-->
+                        <!--                        <a>01-15 an</a>-->
+                        <!--                        <a>01-14 pr</a>-->
+                        <a class="aa" href="/wordpress2/index.php">wordpress2 mano projektas su WordPress - Restoranas PATATA</a>
                     </td>
                 </tr><!-- 3 -->
                 <tr>
                     <td><b>2 sav.</b>
-                        <a class="weekend">01-13 sk</a>
-                        <a class="weekend">01-12 št</a>
-                        <a>01-11 pn PRAKTIKA</a>
-                        <a>01-10 kt</a>
+                        <!--                        <a class="weekend">01-13 sk</a>-->
+                        <!--                        <a class="weekend">01-12 št</a>-->
+                        <!--                        <a>01-11 pn PRAKTIKA</a>-->
+                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
+                        <a class="aa" href="/bt_2019_01_10_kr_patata/index.php">Restoranas PATATA</a>
+                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <a>01-09 tr Palo Alto su wordpress tęsinys</a>
-                        <!----------------------------------------------------------- TODAY -->
-                        <a class="aa" href="/wordpress/index.php">01-08 an <span class="red">wordpress</span> Palo Alto</a>
+                        <a class="" href="/wordpress/index.php">01-08 an <span class="red">wordpress</span> Palo Alto</a>
                         <a class="" href="/bt_2019_01_08_an_wordpress/TomoPuslapis/index.html">Tomo Palo Alto projektas</a>
-                        <!----------------------------------------------------------- TODAY -->
                         <a class="" href="/bt_2019_01_07_pr_php_sql/index.php">01-07 pr <span class="red">php, sql</span></a>
                     </td>
                 </tr><!-- 2 -->
                 <tr>
                     <td><b>1 sav.</b>
-                        <a class="weekend">01-06 sk</a>
-                        <a class="weekend">01-05 št</a>
-                        <a>01-04 pn PRAKTIKA</a>
-                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
+                        <a href="/"><span class="months aa red">VISŲ PROJEKTŲ katalogai</span></a>
+                        <!--                        <a class="weekend">01-06 sk</a>-->
+                        <!--                        <a class="weekend">01-05 št</a>-->
+                        <!--                        <a>01-04 pn PRAKTIKA</a>-->
                         <a class="aa" href="/bt_2019_01_03_kt_canvas_games/index.php">01-03 kt <span class="red">framework: Canvas</span> grafinis framework'as, žaidimo kūrimas - RAKETŲ GAUDYKLĖ</a>
-                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <a class="" href="/bt_2019_01_02_tr_JS_frameworks/index.php">01-02 tr <span class="red">framework: JQuery, Less + Koala</span>, nd: layout <span class="red">Palo Alto</span>, eksperimentas su margin'ais</a>
                         <a><span class="months">01-01 an Naujieji metai 2019</span></a>
                         <a><span class="months">GRUODIS</span></a>
@@ -119,7 +119,7 @@
                         <a class="weekend">12-09 sk</a>
                         <a class="weekend">12-08 št</a>
                         <a>12-07 pn PRAKTIKA</a>
-                        <a href="/bt_12_06_kt_photoshop/index.php">12-06 kt <span class="red">Photoshop .psd</span> formato karpymas su photoshop, <br>kd: layout - NIKE, nd: layout - <span class="red">WELCOME TO PINK</span></a>
+                        <a href="/bt_12_06_kt_photoshop/index.php">12-06 kt <span class="red">Photoshop .psd</span> formato karpymas su photoshop, <br>kd: layout - NIKE, nd: layout - <span class="red">GRAFF PINK</span></a>
                         <a href="/bt_12_05_tr_animation/index.php">12-05 tr Animacija, nd: <span class="red">STAR WARS</span></a>
                         <a>12-04 an</a>
                         <a href="/bt_12_03_pr/index.php">12-03 pr Elementų išdėtaymai (kartojimas), dvi svetainės su įvairiai

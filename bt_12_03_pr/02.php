@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Namų darbas</title>
+        <title>ANIME</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="files/reset.css">
 

@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title>Nam.d.</title>
+	<title>AXIT</title>
 	<meta charset="utf-8">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
