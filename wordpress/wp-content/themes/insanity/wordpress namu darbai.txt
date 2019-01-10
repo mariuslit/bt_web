@@ -1,0 +1,10 @@
+google
+word press print title
+
+padaryti kad matytūsi meniu
+
+// pakesti foofter meniu, kad vartotojas galėtų susikurti foofter meniu
+
+footer pakeisti kažkokį tekstą į kitą title
+
+

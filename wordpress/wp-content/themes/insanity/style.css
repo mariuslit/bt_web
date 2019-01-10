@@ -61,16 +61,22 @@ header .content .logo {
 }
 
 header .content .logo img{
-  height: 40px  ;
+  height: 40px;
   width: 40px;
 }
 
-header .content .menu {
-  /*display: none;*/
+header .content span.menu {
   margin-right: 40px;
+  display: none;
 }
 
 header .content .menu img {
+  width: 32px;
+}
+
+header .content span img {
+/*body > header > div > nav > span:nth-child(3){*/
+  display: inline-block;
   width: 32px;
 }
 
@@ -226,6 +232,11 @@ footer .logo {
   margin-bottom: 65px;
 }
 
+footer .content .logo img{
+  height: 40px;
+  width: 40px;
+}
+
 footer .menu {
   list-style: none;
   margin-bottom: 45px;
@@ -285,16 +296,16 @@ footer .social li {
 footer .social li:not(:last-of-type) {
   margin-right: 25px;
 }
-
+/*//////////////////////////////// 1 /////////////////*/
 @media (max-width: 750px) {
-  header .content nav {
+  header .content span.menu {
+    display: inline-block;
+    text-align: right;
+  }
+  header .content {
     position: relative;
   }
-  header .content nav .menu {
-    display: inline-block;
-  }
-  header .content nav ul {
-    display: none;
+  header .content nav {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -304,6 +315,13 @@ footer .social li:not(:last-of-type) {
     margin: 0;
     background-color: var(--alt);
     z-index: 3;
+  }
+  /*header .content nav .menu img{*/
+    /*display: inline-block;*/
+  /*}*/
+  header .content nav ul {
+    /*display: none;*/
+    /*position: absolute;*/
   }
   header .content nav ul li {
     display: block;
@@ -319,11 +337,12 @@ footer .social li:not(:last-of-type) {
   header .content nav ul li a:hover::after {
     bottom: 17px;
   }
-  header .content nav .menu + ul:hover, header .content nav .menu:focus + ul {
+  header .content nav .menu:focus + ul,
+  header .content nav .menu + ul:hover {
     display: block;
   }
 }
-
+/*//////////////////////////////// 2 /////////////////*/
 @media (max-width: 650px) {
   article .abody .afooter {
     -webkit-box-orient: vertical;

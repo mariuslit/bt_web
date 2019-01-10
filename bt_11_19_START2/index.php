@@ -57,10 +57,10 @@
                         <a class="weekend">01-12 št</a>
                         <a>01-11 pn PRAKTIKA</a>
                         <a>01-10 kt</a>
-                        <a>01-09 tr</a>
+                        <a>01-09 tr Palo Alto su wordpress tęsinys</a>
                         <!----------------------------------------------------------- TODAY -->
-                        <a class="aa" href="/wordpress/index.php">01-08 an wordpress Palo Alto</a>
-                        <a class="aa" href="/bt_2019_01_08_an_wordpress/index.php">01-08 an wordpress mano</a>
+                        <a class="aa" href="/wordpress/index.php">01-08 an <span class="red">wordpress</span> Palo Alto</a>
+                        <a class="" href="/bt_2019_01_08_an_wordpress/TomoPuslapis/index.html">Tomo Palo Alto projektas</a>
                         <!----------------------------------------------------------- TODAY -->
                         <a class="" href="/bt_2019_01_07_pr_php_sql/index.php">01-07 pr <span class="red">php, sql</span></a>
                     </td>
