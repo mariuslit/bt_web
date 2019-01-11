@@ -16,11 +16,17 @@ header {
     z-index: 2;
     background-color: #2c3e50;
     color: #95a5a6;
+    display: flex;
+    box-sizing: border-box;
+}
+
+nav{
+    float: left;
 }
 
 .zero {
     background-color: #2980b9;
-    position: absolute;
+/*    position: absolute;*/
     color: yellow;
     z-index: 3;
     top: 10px;
@@ -31,7 +37,7 @@ header {
 
 .zero2 {
     background-color: #2980b9;
-    position: absolute;
+/*    position: absolute;*/
     color: yellow;
     z-index: 3;
     top: 10px;
@@ -61,8 +67,8 @@ h1 {
 }
 
 table {
-    position: static;
-    margin: 5px auto;
+    position: relative;
+    margin: 0px auto;
     text-align: left;
     font-size: 20px;
     border-collapse: collapse;

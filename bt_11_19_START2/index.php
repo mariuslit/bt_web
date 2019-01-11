@@ -19,16 +19,18 @@
     </head>
     <body>
         <header>
-            <a href="/bt_2019_01_%20zerooooooooooooooooooooooooo/index.php">
-                <div class="zero">ZERO</div>
-                <div class="zero2">START senas</div>
-            </a>
+            <nav>
+                <a class="zero" href="/bt_2019_01_%20zerooooooooooooooooooooooooo/index.php">ZERO</a>
+                <a class="zero2" href="/bt_11_19_START/index.php">START senas</a>
+                <a href="/"><span class="months aa red">VISŲ PROJEKTŲ katalogai</span></a>
+            </nav>
+
 
             <h1>Baltic talents - Java kursas</h1>
 
         </header>
 
-<!--                <a class="startSenaVersija" href="/bt_11_19_START/index.php">START sens</a>-->
+        <!--                <a class="startSenaVersija" href="/bt_11_19_START/index.php">START sens</a>-->
 
         <table>
 
@@ -68,7 +70,6 @@
                 </tr><!-- 2 -->
                 <tr>
                     <td><b>1 sav.</b>
-                        <a href="/"><span class="months aa red">VISŲ PROJEKTŲ katalogai</span></a>
                         <!--                        <a class="weekend">01-06 sk</a>-->
                         <!--                        <a class="weekend">01-05 št</a>-->
                         <!--                        <a>01-04 pn PRAKTIKA</a>-->
