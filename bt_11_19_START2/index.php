@@ -58,7 +58,8 @@
                     <td><b>2 sav.</b>
                         <!--                        <a class="weekend">01-13 sk</a>-->
                         <!--                        <a class="weekend">01-12 št</a>-->
-                        <!--                        <a>01-11 pn PRAKTIKA</a>-->
+                                                <a>01-11 pn PRAKTIKA</a>
+                        <a class="" href="/bt_2019_01_11_pn_align_vertikal/index.php">Image and text vertical align examples</a>
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <a class="aa" href="/bt_2019_01_10_kr_patata/index.php">Restoranas PATATA</a>
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
@@ -73,7 +74,7 @@
                         <!--                        <a class="weekend">01-06 sk</a>-->
                         <!--                        <a class="weekend">01-05 št</a>-->
                         <!--                        <a>01-04 pn PRAKTIKA</a>-->
-                        <a class="aa" href="/bt_2019_01_03_kt_canvas_games/index.php">01-03 kt <span class="red">framework: Canvas</span> grafinis framework'as, žaidimo kūrimas - RAKETŲ GAUDYKLĖ</a>
+                        <a class="" href="/bt_2019_01_03_kt_canvas_games/index.php">01-03 kt <span class="red">framework: Canvas</span> grafinis framework'as, žaidimo kūrimas - RAKETŲ GAUDYKLĖ</a>
                         <a class="" href="/bt_2019_01_02_tr_JS_frameworks/index.php">01-02 tr <span class="red">framework: JQuery, Less + Koala</span>, nd: layout <span class="red">Palo Alto</span>, eksperimentas su margin'ais</a>
                         <a><span class="months">01-01 an Naujieji metai 2019</span></a>
                         <a><span class="months">GRUODIS</span></a>

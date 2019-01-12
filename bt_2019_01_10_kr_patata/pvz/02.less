@@ -1,0 +1,426 @@
+@import "02mixins.less"; // funkcijos
+
+//@colorBackgroundBody: rgba(136, 136, 136, 0.3);
+@colorBackgroundBody: #f7f9fc;
+@colorBlue: #5c6bc0;
+@colorLettersDark: #333333;
+@colorLettersLightTop: #bdbdbd;
+@colorLettersLightBottom: #9da6d9;
+
+@innerWidth: 80%;
+@innerMaxWidth: 955px;
+@innerPaddingLR: 100px;
+
+div.progressBar {
+  background-color: @colorBlue;
+  width: 50%;
+  height: 4px;
+}
+
+body {
+  background-color: @colorBackgroundBody;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+/* 1280x89px */
+header {
+  width: 100%;
+  z-index: 2;
+  text-transform: uppercase;
+
+  nav {
+    // funkcija importuojama iš 02mixins.less failo
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-between;
+
+    /* --------------------- left */
+    .leftSide {
+      width: 157px;
+      height: 33px;
+      display: inline-block;
+      box-sizing: border-box;
+      vertical-align: middle;
+    }
+
+    /* --------------------- right */
+    .rightSide {
+      text-align: right;
+      box-sizing: border-box;
+      vertical-align: middle;
+
+      li {
+        display: inline-block;
+        padding: 6px 0px;
+        margin: 0 15px;
+        border-bottom: 4px solid #00000000;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      li:first-child {
+        margin-left: 0;
+        opacity: 0.3;
+      }
+
+      /* [ search button turi būti 16x16 ]*/
+      li:last-child {
+        vertical-align: middle;
+        margin-right: 0px;
+      }
+
+      li:hover {
+        border-bottom: 4px solid @colorBlue;
+        cursor: pointer;
+        opacity: 1;
+      }
+
+      .sandwich {
+        border: none;
+        background-color: @colorBlue;
+        padding: 2px 3px 1px 3px;
+        display: none;
+      }
+    }
+  }
+}
+
+.section {
+  position: relative;
+  // funkcija importuojama iš 02mixins.less failo
+  .f--width-max-width(@innerWidth, @innerMaxWidth);
+  background-color: #ffffff;
+  padding: 60px 100px 80px 100px;
+  margin: 0 auto 50px auto;
+  //border: 1px solid red;
+  text-align: left;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+
+  .blue_I_Do_Travel {
+    position: absolute;
+    top: 20px;
+    right: -12px;
+  }
+
+  h5 { // Sep_20
+    font-size: 14px;
+    color: @colorLettersLightTop;
+    padding-bottom: 25px;
+  }
+
+  h2 { // Sep_20
+    font-size: 36px;
+    line-height: 1.25;
+    color: #000000;
+    padding-bottom: 40px;
+    border-bottom: 2px solid @colorLettersLightTop;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: 15px;
+    //margin-bottom: 15px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.7;
+  }
+
+  .specialParagraph {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    line-height: 1.5;
+    padding-bottom: 15px;
+  }
+
+  button {
+    font-size: 21px;
+    color: @colorBlue;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 0px;
+    border-width: 0;
+    background-color: inherit;
+  }
+
+  button:hover {
+    color: #ffffff;
+    background-color: @colorBlue;
+  }
+
+  h4 {
+    display: inline-block;
+    font-size: 14px;
+    //color: @colorLettersDark;
+    color: rgba(0, 0, 0, 0.302);
+    font-weight: bold;
+    vertical-align: sub;
+  }
+
+  .leftSide {
+    //margin: 50px 0 80px 0;
+    margin-top: 50px;
+    float: left;
+  }
+  .rightSide {
+    margin-top: 50px;
+    float: right;
+  }
+
+  .clearBoth {
+    clear: both;
+  }
+}
+
+.bigPicture {
+  // funkcija importuojama iš 02mixins.less failo
+  .f--width-max-width(@innerWidth, @innerMaxWidth);
+}
+
+/* -------------------------------------------------- [1][2][3] */
+.pageButtons {
+
+  .pageButton {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    width: 17px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 8px 8px 120px 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .pageButton:first-child {
+    color: #ffffff;
+    background-color: @colorBlue;
+  }
+
+  .pageButton:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: @colorBlue;
+  }
+}
+
+/* -------------------------------------------------- footer */
+footer {
+  background-color: @colorBlue;
+  color: #ffffff;
+  padding: 35px 0px 80px 0px;
+  text-align: center;
+
+  img.logoFooter {
+    padding: 65px 0px;
+  }
+
+  ul.nav {
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-bottom: 45px;
+
+    li {
+      display: inline-block;
+      padding: 6px 0px;
+      margin: 0 15px;
+      border-bottom: 4px solid #00000000;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    li:first-child {
+      margin-left: 0;
+      opacity: 0.3;
+    }
+
+    /* [ search button turi būti 16x16 ]*/
+    li:last-child {
+      vertical-align: middle;
+      margin-right: 0px;
+    }
+
+    li:hover {
+      border-bottom: 4px solid #ffffff;
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+
+  p.text {
+    // funkcija importuojama iš 02mixins.less failo
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+    color: #949ed6;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: -0.7px;
+
+    padding-top: 40px;
+    border-top: 2px solid #5765b5;
+    margin-bottom: 40px;
+  }
+
+  div.inner {
+
+    .f--width-max-width(calc(@innerWidth - 10%), calc(@innerMaxWidth - 145px));
+    padding-top: 40px;
+    border-top: 2px solid #5765b5;
+
+    h3 {
+      display: inline-block;
+      font-size: 14px;
+      color: #949ed6;
+      //color: #FFFFFF;
+      //margin-bottom: 24px;
+    }
+
+    h5 {
+      display: inline-block;
+      font-size: 16px;
+      /*color: rgb(139, 139, 139);*/
+      line-height: 1.5;
+      text-indent: 4px;
+    }
+  }
+
+  div.logos {
+    display: inline-block;
+    width: 68%;
+    margin-top: 40px;
+    //margin-bottom: 80px;
+    vertical-align: top;
+
+    a {
+      cursor: pointer;
+    }
+    img {
+      display: inline-block;
+      margin: 0 10px;
+      //width: 23%;
+      //min-width: 115px;
+    }
+  }
+}
+
+//   |||   M E D I A - Q U E R I E S   |||
+/*
+(min-width: 1023px) - ir desktopams ir tablet
+(max-width: 1023px) and (min-width: 667px) - tik tablet
+(max-width: 667px) tik telefonms
+*/
+
+// 1 desktop
+@media screen and (min-width: 1023px) {
+  @innerWidth: 80%;
+  @innerMaxWidth: 955px;
+  body {
+    //background-color: #e466ff;
+  }
+}
+
+// 2 tablet
+@media screen and (max-width: 1023px) and (min-width: 667px) {
+
+  @innerWidth: 90%;
+  @innerMaxWidth: 855px;
+
+  body {
+    //background-color: #ffff00;
+  }
+
+  header nav {
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+    padding: 30px 0;
+  }
+
+  .section {
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+    padding: 20px 40px 30px 40px;
+  }
+
+  .bigPicture {
+    // funkcija importuojama iš 02mixins.less failo
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+  }
+
+  .pageButtons .pageButton {
+    margin-bottom: 80px;
+  }
+
+  footer {
+    padding: 15px 0px 40px 0px;
+    img.logoFooter {
+      padding: 30px 0px;
+    }
+  }
+}
+
+// 3 phone
+@media screen and (max-width: 667px) {
+
+  @innerWidth: 95%;
+  @innerMaxWidth: 650px;
+
+  body {
+    //background-color: #00ff00;
+  }
+
+  header nav {
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+    padding: 10px 0;
+
+    .rightSide {
+      li {
+        display: none;
+      }
+
+      .sandwich {
+        display: inline-block;
+      }
+    }
+  }
+
+  .section {
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+    padding: 4px 7px 15px 7px;
+  }
+
+  .bigPicture {
+    // funkcija importuojama iš 02mixins.less failo
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+  }
+
+  .pageButtons .pageButton {
+    margin-bottom: 60px;
+  }
+
+  footer {
+    padding: 10px 0px 20px 0px;
+    img.logoFooter {
+      padding: 10px 0px;
+    }
+    ul.nav {
+      margin-bottom: 15px;
+    }
+    p.text {
+      padding-top: 15px;
+      margin-bottom: 15px;
+    }
+    div.inner {
+      padding-top: 15px;
+    }
+    div.logos {
+      margin-top: 15px;
+    }
+  }
+}
+
+
+
+
+

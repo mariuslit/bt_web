@@ -1,0 +1,47 @@
+body {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp {
+    background-color: yellow;
+}
+
+.inner {
+    width: 80%;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid red;
+    font-size: 0px;
+}
+
+.exp .leftSide {
+    display: inline-block;
+    float: left;
+}
+
+.exp .leftSide .logo {
+    height: 100px;
+}
+
+.exp .rightSide {
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+}
+
+.exp .rightSide li {
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+    border: 1px solid blue;
+    float: right;
+}
+
+.exp .clear {
+    clear: both;
+}
