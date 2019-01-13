@@ -1,30 +1,31 @@
+WordPress (pirma karta jungiantis sukûrus naujà projektà)
+
+prieð jungiantis prie wordpress reikia sukurti tuðèià duomenø bazæ be lenteliø (su MySql per locallhost XAMPP)
+
+(ATSISKAITOMASIS DARBAS - RESTORANAS PATATA)
+
+Database Name:	wordpress2
+Username:	root
+Password:	// nieko
+Database Host:	localhost
+Table Prefix:	wp2_
+
+Site Title	patata
+Username	adminPatata
+Password	QS@B5$q%DSOLiEbw#C
+Your Email	mariuslit@yahoo.com
+
+---
+projektas: wordpress2 C:\xampp\htdocs\wordpress2\wp-content\themes\patata\index.php
+Nickname (required): adminPatata
+---
+projektas: wordpress C:\xampp\htdocs\wordpress\wp-content\themes\insanity\index.php
+
 Palo Alto
 admin
 password123
 mariuslit@yahoo.com
-
---------------
-ATSISKAITOMASIS DARBAS - RESTORANAS PATATA:
-
-Database Name	
-wordpress2
-
-Username	
-root
-
-Password	
-// nieko
-
-Database Host
-localhost
-
-
-Table Prefix	
-wp2_
 ---
-Patata
-admin
-TSGQdqK6Dv7S
-mariuslit@yahoo.com
 
 	
+

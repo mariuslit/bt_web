@@ -2,7 +2,6 @@ Palo Alto
 admin
 
 mariuslit@yahoo.com
-
 --------------
 Database Name	
 wordpress2
@@ -24,5 +23,5 @@ Patata
 admin
 TSGQdqK6Dv7S
 mariuslit@yahoo.com
-
+---
 	

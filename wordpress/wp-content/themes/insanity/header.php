@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Blog</title>
+	<title>Palo Alto</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_template_directory_uri();?>/style.css"/>

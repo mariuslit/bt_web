@@ -65,7 +65,7 @@
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <a>01-09 tr Palo Alto su wordpress tęsinys</a>
                         <a class="" href="/wordpress/index.php">01-08 an <span class="red">wordpress</span> Palo Alto</a>
-                        <a class="" href="/bt_2019_01_08_an_wordpress/TomoPuslapis/index.html">Tomo Palo Alto projektas</a>
+                        <a class="" href="/bt_2019_01_08_an_TomoPuslapis/index.php">Tomo Palo Alto projektas</a>
                         <a class="" href="/bt_2019_01_07_pr_php_sql/index.php">01-07 pr <span class="red">php, sql</span></a>
                     </td>
                 </tr><!-- 2 -->
