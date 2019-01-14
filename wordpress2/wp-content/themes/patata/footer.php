@@ -14,11 +14,11 @@
 		<!--------------------------------------------------->
 		<div class="innerMiddle">
 			<div class="inner logo">
-				<img class="first" src="images/logo.jpg" alt="logo">
-				<img class="second" src="images/footer-idea.png" alt="logo">
+				<img class="first" src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" alt="logo">
+				<img class="second" src="<?php echo get_template_directory_uri(); ?>/images/footer-idea.png" alt="logo">
 			</div>
-<!--			<div class="logo">-->
-<!--			</div>-->
+			<!--			<div class="logo">-->
+			<!--			</div>-->
 
 			<div class="inner2">
 				<div class="block leftSide">
@@ -58,13 +58,13 @@
 
 				<div class="block rightSide">
 					<a class="" href="https://www.facebook.com/patatakaunas/">
-						<img src="images/logo_facebook.png" alt="logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/logo_facebook.png" alt="logo">
 					</a>
 					<a class="" href="https://www.facebook.com/patatakaunas/">
-						<img src="images/logo_twitter.png" alt="logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/logo_twitter.png" alt="logo">
 					</a>
 					<a class="" href="https://www.facebook.com/patatakaunas/">
-						<img src="images/logo_p.png" alt="logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/logo_p.png" alt="logo">
 					</a>
 				</div>
 			</div>
@@ -75,8 +75,8 @@
 
 		<ul class="solution">
 			<li class="text">Visos teisės saugomos © PATATA</li>
-			<li>Sprendimas:</li>
 			<li>
+				<p>Sprendimas:</p>
 				<a href="http://localhost/bt_11_19_start2/index.php" target="_blank" rel="noopener"
 				   aria-label="*aria_link_opens_new_tab*">UAB "MariusDev"
 				</a>

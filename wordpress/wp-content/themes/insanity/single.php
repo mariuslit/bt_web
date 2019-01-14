@@ -1,5 +1,7 @@
 <!-- single.php failas veikia, kai atidaromas koks nors posto url -->
 <!-- jei nėra single.php filo atidaromas index.php o jei yra - single.php -->
+<!-- postą galima kviesti su permalink funkcija <?php echo get_the_permalink() ?>   -->
+<!-- naudojimas: <a href="<?php echo get_the_permalink() ?>"class="more">Read More</a>     -->
 
 <?php get_header(); ?>
 

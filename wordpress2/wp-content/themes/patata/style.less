@@ -1,0 +1,582 @@
+// variables
+@color-brown: #722619;
+@color-yellow: #ffe93d;
+@color-green: #82a137;
+@color-grey: #9E9E9E;
+
+@innerWidth: 75%;
+@innerMaxWidth: 1000px;
+
+// functions
+// pločiams sutvarkyti
+.f--width-max-width(@param1, @param2) {
+  width: @param1;
+  max-width: @param2;
+  margin-left: auto;
+  margin-right: auto;
+  //border: 1px solid red;
+}
+
+//--------------------------------------------------------------
+.inner {
+  .f--width-max-width(@innerWidth, @innerMaxWidth);
+}
+
+body {
+  //background-color: @color-yellow;
+  position: relative;
+  font-family: 'Thasadith', sans-serif;
+  .f--width-max-width(100%, 100%);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  background-color: #9a9a9a88;
+  background-image: url("images/img-18.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  //position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  text-transform: uppercase;
+  font-style: italic;
+  text-decoration: none;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+
+  .inner {
+    font-size: 0;
+    justify-content: space-between;
+    box-sizing: border-box;
+    //align-items: center;
+    //flex-flow: column;
+
+    /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< left */
+    .leftSide {
+      display: inline-block;
+      float: left;
+
+      .logo {
+        height: 100px;
+      }
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> right */
+    .rightSide {
+      //display: none;
+      display: inline-block;
+      line-height: 100px;
+      text-align: right;
+      float: right;
+
+      li {
+        display: inline-block;
+        a {
+          padding: 0 10px 40px 10px;
+          //border: 1px solid red;
+          font-size: 17px;
+          vertical-align: middle;
+          text-decoration: none;
+          color: @color-brown;
+
+        }
+
+        &:hover {
+          cursor: pointer;
+          //background-color: @color-yellow;
+          background-image: linear-gradient(white 50%, @color-yellow);
+        }
+      }
+    }
+
+    .buttonSandwich {
+      //display: inline-block;
+      display: none;
+      margin-top: 35px;
+      float: right;
+      border: none;
+      background-color: inherit;
+      padding: 5px;
+
+      img {
+        height: 20px;
+      }
+    }
+
+    .buttonSandwich:hover {
+      cursor: pointer;
+      margin-top: 35px;
+      padding: 3px;
+
+      img {
+        height: 24px;
+      }
+    }
+    .clear {
+      clear: both;
+    }
+  }
+}
+
+.manoNuoroduBlokas {
+  margin: 20px;
+
+  .manoNuorodos {
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+  }
+}
+
+.pageLunch {
+
+  .inner {
+    background-color: @color-yellow;
+    padding: 60px 0px 80px 0px;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftSide {
+      margin: 40px;
+      width: 50%;
+      text-align: left;
+      font-size: 0;
+
+      h3 {
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 10px;
+
+        &.lineAfter:after {
+          position: absolute;
+          content: "";
+          width: 100%;
+          border-bottom: 5px solid @color-brown;
+          left: 0;
+          transform: translateX(0);
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+      }
+
+      .text {
+        padding-top: 40px;
+        text-align: left;
+        font-size: 18px;
+
+        p {
+          color: #000;
+          text-align: justify;
+          /* padding-top: 60px; */
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .rightSide {
+      width: 50%;
+
+      img {
+        width: 100%;
+        box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+/////////////////////////////////////////////
+/* ============= Second menu ============= */
+/////////////////////////////////////////////
+.pageMenu {
+  padding: 10px;
+
+  .second-menu {
+    padding: 10px;
+    display: inline-block;
+
+    .restaurant-menu {
+      padding: 5px;
+      height: 50px;
+      text-align: center;
+      display: inline-block;
+
+      li {
+        background-color: #262626;
+        line-height: 25px;
+        margin-bottom: 5px;
+        padding: 5px;
+        border: 1px solid #ffffff00;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: capitalize;
+
+        a {
+          padding: 0 15px;
+          font-size: 18px;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+
+      li.active, li:hover {
+        background-image: linear-gradient(white 0%, @color-green 50%, white 150%);
+        height: 30px;
+        margin-bottom: 0px;
+        position: relative;
+        cursor: pointer;
+      }
+
+    }
+  }
+}
+
+.pageGallery {
+  div.photoset {
+    padding: 2px;
+    background-color: #ffffff;
+    //max-width: 600px;
+    width: @innerWidth;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .photo {
+      position: relative;
+      flex-grow: 1; //They will fill space but actually want to take up the smallest space possible doing it, so you just need to stop it getting too small with min-width (otherwise they all bunch on the same line)
+      min-width: calc(100% / 3); //This is the maximum number (3) in a row bit
+      background-size: cover;
+      background-position: center;
+
+      @media screen and (max-width: 700px) {
+        min-width: calc(100% / 2); //As simple as this for responsiveness without a delay you would get with JavaScript
+      }
+      @media screen and (max-width: 460px) {
+        min-width: 100%;
+      }
+      &:after {
+        //Aspect Ratio
+        padding-top: 83.33333%; //For 5:6 height to width ratio
+        display: block;
+        content: "";
+      }
+      &:before {
+        //Gaps
+        z-index: 2;
+        position: absolute;
+        content: "";
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        box-shadow: inset 0 0 0 2px #ffffff; //Cheaty way to make it look like there are gaps 😜
+      }
+      &:nth-child(1) {
+        //Make first image big
+        width: 100%;
+      }
+    }
+
+    &.square .photo:after {
+      padding-top: 100%;
+    }
+    &.portrait .photo:after {
+      padding-top: 120%;
+    }
+  }
+}
+
+.pageContacts {
+
+  .inner {
+    background-color: @color-green;
+    color: #000;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+    .leftSide {
+      width: 50%;
+
+      .inner2 {
+        padding: 20px 20px 20px 0px;
+
+        iframe {
+          width: 100%;
+          height: 60vh;
+        }
+      }
+    }
+
+    .rightSide {
+      width: 50%;
+      text-align: left;
+      font-size: 0;
+      padding: 20px;
+
+      .text {
+
+        h3 {
+          text-align: left;
+          padding-bottom: 10px;
+          position: relative;
+          font-family: 'Roboto', sans-serif;
+          font-size: 24px;
+          font-weight: bold;
+
+          &.lineAfter:after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            border-bottom: 5px solid @color-brown;
+            left: 0;
+            transform: translateX(0);
+            margin-top: 40px;
+            margin-bottom: 40px;
+          }
+        }
+
+        .fa-ul {
+          margin-top: 30px;
+          margin-left: 30px;
+        }
+
+        li {
+          //position: relative;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #181818;
+  //background-color: @color-green;
+  margin-top: 50px;
+
+  .bottom_menu {
+    padding: 35px 0 20px;
+
+    ul {
+      margin: 0;
+      font-size: 0;
+      text-align: center;
+    }
+
+    a {
+      display: block;
+      color: @color-yellow;
+      font-family: "Verlag-Bold", Arial, sans-serif;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 24px;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2.2px;
+      white-space: nowrap;
+      border: 0 none;
+      padding: 0 8px;
+      border-bottom: 5px solid #72261900;
+
+      &:hover {
+        border-bottom: 5px solid @color-yellow;
+        cursor: pointer;
+      }
+    }
+
+    li {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      margin: 5px;
+
+      &:before {
+        display: none;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 9px;
+        right: -7.5px;
+        //transform: translateY(-50%);
+        width: 5px;
+        height: 5px;
+        background-color: @color-brown;
+        box-sizing: inherit;
+      }
+
+      &:last-child:after {
+        display: none;
+      }
+    }
+  }
+
+  .innerMiddle {
+
+    .logo {
+      padding: 50px 0 80px 0;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: auto;
+        margin: 0 10px;
+      }
+
+      .first {
+        height: 100px;
+      }
+
+      .second {
+        padding-top: 30px;
+        height: 40px;
+      }
+
+    }
+  }
+
+  .inner2 {
+    display: flex;
+    justify-content: space-between;
+    color: @color-grey;
+    font-weight: normal;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+
+    .block {
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 50px;
+      h2 {
+        padding-bottom: 10px;
+        font-weight: bold;
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+        color: @color-yellow;
+
+        &:hover {
+          background-color: @color-yellow;
+          border-radius: 20px;
+          color: black;
+        }
+      }
+    }
+
+    .leftSide {
+    }
+
+    .center {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .rightSide {
+      a {
+        margin: 10px;
+        padding: 3px;
+        display: block;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+      }
+
+    }
+  }
+  .solution {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    color: #607D8B;
+
+    p {
+      display: inline;
+    }
+
+    a {
+      text-decoration: none;
+      color: #607D8B;
+      display: inline;
+
+      &:hover {
+        color: @color-green;
+      }
+    }
+  }
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   MEDIA QUERIES
+
+// 1 desktop
+@media screen and (min-width: 1023px) {
+}
+
+// 2 tablet
+@media screen and (max-width: 1023px) {
+  //and (min-width: 667px) {
+  @innerWidth: 90%;
+  @innerMaxWidth: 855px;
+
+  header {
+    background-color: @color-green;
+
+    .inner .rightSide {
+      display: none;
+    }
+
+    .inner .buttonSandwich {
+      display: inline-block;
+    }
+  }
+
+  section {
+  }
+
+  footer {
+  }
+}
+
+// 3 phone
+@media screen and (max-width: 667px) {
+
+  @innerWidth: 95%;
+  @innerMaxWidth: 650px;
+
+  header {
+    background-color: @color-grey;
+
+    .inner .rightSide {
+      display: none;
+    }
+
+    .inner .buttonSandwich {
+      display: inline-block;
+    }
+  }
+
+  section {
+  }
+
+  footer {
+  }
+}
+
+

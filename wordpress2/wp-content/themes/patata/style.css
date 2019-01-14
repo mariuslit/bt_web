@@ -55,15 +55,17 @@ header .inner .rightSide {
   text-align: right;
   float: right;
 }
-header .inner .rightSide a {
+header .inner .rightSide li {
   display: inline-block;
-  padding: 0 10px;
+}
+header .inner .rightSide li a {
+  padding: 0 10px 40px 10px;
   font-size: 17px;
   vertical-align: middle;
   text-decoration: none;
   color: #722619;
 }
-header .inner .rightSide a:hover {
+header .inner .rightSide li:hover {
   cursor: pointer;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), to(#ffe93d));
   background-image: linear-gradient(#ffffff 50%, #ffe93d);
@@ -444,9 +446,13 @@ header .inner .clear {
   padding: 15px 0;
   color: #607D8B;
 }
+.footer .solution p {
+  display: inline;
+}
 .footer .solution a {
   text-decoration: none;
   color: #607D8B;
+  display: inline;
 }
 .footer .solution a:hover {
   color: #82a137;

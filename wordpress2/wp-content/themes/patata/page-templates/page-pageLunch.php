@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php /* Template Name: Dienos pietūs */ get_header(); ?>
 
 	<section class="pageLunch">
 		<div class="inner">
@@ -12,10 +12,9 @@
 			</div>
 
 			<div class="rightSide">
-				<img class="rightSide" src="images/gallery/img-7.jpg" alt="Dienos pietūs">
+				<img class="rightSide" src="<?php echo get_template_directory_uri();?>/images/gallery/img-7.jpg" alt="Dienos pietūs">
 			</div>
 		</div>
 	</section>
 
-
-<?php include 'footer.php'; ?>
+<?php get_footer(); ?>

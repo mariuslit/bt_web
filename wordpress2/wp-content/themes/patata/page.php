@@ -6,10 +6,10 @@ if (have_posts()) {
         the_post();
 //        echo get_the_content();
         ?>
-		<div style="background-color: yellow;" class="pageContent">
+        <div style="background-color: red; text-align: center" class="pageContent">
             <?php echo get_the_content();?>
 
-		</div>
+        </div>
     <?php }
 } ?>
 
