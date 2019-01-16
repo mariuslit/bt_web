@@ -8,8 +8,7 @@ get_header();
         the_post();
 
         echo get_the_content();
-    }
-    ?>
+    }?>
 </section>
 
 <?php get_footer(); ?>

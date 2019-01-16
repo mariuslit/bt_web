@@ -10,12 +10,13 @@ add_theme_support('post-thumbnails');
 // customizer_function valdo Customize kairės pusės funkcijas
 function customizer_function($wp_customize){
 
+    // Customizer kairės panelės meniu punktas 'Footerio nustatymai'
     $wp_customize->add_section('footer_settings', array(
         'title' => 'Footerio nustatymai',
         'priority' => 50
     ));
 
-    // Footer text
+    // Footer text 'Footerio tekstas'
     $wp_customize->add_setting('footer_text', array(
         'default' => 'Lorem Ipsum',
         'transport' => 'refresh',
@@ -30,7 +31,7 @@ function customizer_function($wp_customize){
             'settings' => 'footer_text'
     )));
 
-    // Footer BG color
+    // Footer BG color 'Footerio spalva'
     $wp_customize->add_setting('footer_color', array(
         'default' => 'Lorem Ipsum',
         'transport' => 'refresh',
@@ -45,7 +46,7 @@ function customizer_function($wp_customize){
             'settings' => 'footer_color'
     )));
 
-    // Footer logo
+    // Footer logo 'Footerio logotipas'
     $wp_customize->add_setting('footer_logo', array(
         'transport' => 'refresh',
     ));

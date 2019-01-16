@@ -46,8 +46,9 @@ header .inner .leftSide {
   display: inline-block;
   float: left;
 }
-header .inner .leftSide .logo {
+header .inner .leftSide img {
   height: 100px;
+  width: 100px;
 }
 header .inner .rightSide {
   display: inline-block;
@@ -102,7 +103,7 @@ header .inner .clear {
 }
 .pageLunch .inner {
   background-color: #ffe93d;
-  padding: 60px 0px 80px 0px;
+  padding: 30px 0px 40px 0px;
   font-size: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,7 +117,7 @@ header .inner .clear {
 }
 .pageLunch .inner .leftSide {
   margin: 40px;
-  width: 50%;
+  width: 100%;
   text-align: left;
   font-size: 0;
 }
@@ -144,16 +145,37 @@ header .inner .clear {
   font-size: 18px;
 }
 .pageLunch .inner .leftSide .text p {
+  display: block;
   color: #000;
   text-align: justify;
   /* padding-top: 60px; */
-  line-height: 1.5;
+  line-height: 2;
 }
-.pageLunch .inner .rightSide {
-  width: 50%;
+.pageLunch .inner .leftSide .text .wp-block-image {
+  display: inline-block;
+  margin: 1%;
+  text-align: center;
+  vertical-align: center;
+  width: 47%;
 }
-.pageLunch .inner .rightSide img {
+.pageLunch .inner .leftSide .text .wp-block-image img {
+  padding: 0.5%;
   width: 100%;
+  height: auto;
+  -webkit-box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+.pageLunch .inner .leftSide .text .rightSide {
+  display: inline-block;
+  margin: 1%;
+  text-align: center;
+  vertical-align: center;
+  width: 47%;
+}
+.pageLunch .inner .leftSide .text .rightSide img {
+  padding: 0.5%;
+  width: 100%;
+  height: auto;
   -webkit-box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
 }
@@ -413,10 +435,10 @@ header .inner .clear {
 .footer .inner2 .block a {
   display: block;
   text-decoration: none;
-  color: #ffe93d;
+  color: white;
 }
 .footer .inner2 .block a:hover {
-  background-color: #ffe93d;
+  background-color: white;
   border-radius: 20px;
   color: black;
 }

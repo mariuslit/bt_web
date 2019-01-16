@@ -12,7 +12,8 @@
 <header>
 	<div class="content">
 		<div class="logo">
-            <?php the_custom_logo(); ?><!-- Palo Alto -->
+            <?php the_custom_logo(); ?>
+<!--            Palo Alto -->
 		</div>
 		<nav>
             <?php wp_nav_menu(array('theme_location' => 'header_menu',

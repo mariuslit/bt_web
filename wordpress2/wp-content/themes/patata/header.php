@@ -29,8 +29,9 @@
 	<nav class="inner">
 		<div class="leftSide">
 			<a class="" href="index.php">
-                <?php the_custom_logo(); ?>
-				<img class="logo" src="<?php echo get_template_directory_uri();?>/images/logo.jpg" alt="logo">
+<!--                --><?php //the_custom_logo(); ?>
+<!--				<img class="logo" src="--><?php //echo get_template_directory_uri();?><!--/images/logo.jpg" alt="logo">-->
+				<img src="<?php echo get_theme_mod('footer_logo'); ?>">
 			</a>
 		</div>
 		<ul class="rightSide">

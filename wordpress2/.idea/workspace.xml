@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1966b6df-1f4e-4947-a00e-448b3ce392b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/patata/loop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/patata/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kr_patata/images/gallery/10710705_455215594621062_280496053686177929_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kr_patata/images/gallery/12295333_630061453803141_2214501438525953525_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kr_patata/images/gallery/12928329_686882148121071_2989889226789661047_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kr_patata/images/gallery/14980633_800401920102426_5464458325719943880_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/page-kontaktai.php" beforeDir="false" afterPath="$PROJECT_DIR$/../wordpress/wp-content/themes/insanity/page-kontaktai.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/patata/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/patata/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/patata/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/patata/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/m-page-pageLunch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/patata/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/patata/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/patata/style.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,122 +25,182 @@
     <session id="221691499">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Less" value="3" />
-          <entry key="PHP" value="24" />
+          <entry key="Less" value="7" />
+          <entry key="PHP" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Less" value="98" />
-          <entry key="PHP" value="503" />
+          <entry key="Less" value="376" />
+          <entry key="PHP" value="1687" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageGallery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="129" selection-start-line="24" selection-start-column="129" selection-end-line="24" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageContacts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
-              <folding>
-                <element signature="e#472#872#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/single.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.3828697">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1860">
+                  <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="720">
+                  <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/functions.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="471">
+                  <caret line="139" column="51" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="51" />
+                  <folding>
+                    <element signature="n#customizer_function#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="15" column="22" selection-start-line="15" selection-end-line="15" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/single.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="9" column="38" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/loop.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="8" column="74" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="74" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="680">
+                  <caret line="149" column="16" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#223#336#0" />
+                    <element signature="e#410#465#0" />
+                    <element signature="e#472#872#0" />
+                    <element signature="e#881#2509#0" />
+                    <element signature="e#2530#2634#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch3.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageMenu.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageGallery.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageContacts.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>img</find>
+      <find>footer_settings2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>dienos_pietus</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -160,12 +215,14 @@
         <option value="$PROJECT_DIR$/wp-content/themes/patata/page-pageGallery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/patata/page-pageMenu.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/patata/loop.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/patata/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/patata/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/patata/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageGallery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/patata/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/patata/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/patata/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/patata/style.less" />
+        <option value="$PROJECT_DIR$/wp-content/themes/patata/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch3.php" />
       </list>
     </option>
   </component>
@@ -181,9 +238,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="width" value="1378" />
-    <option name="height" value="714" />
+    <option name="x" value="-3" />
+    <option name="y" value="13" />
+    <option name="width" value="1364" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -255,6 +313,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress2\wp-content\themes\patata\page-templates" />
       <recent name="C:\xampp\htdocs\wordpress2\wp-content\themes\patata" />
     </key>
   </component>
@@ -284,18 +343,27 @@
       <workItem from="1547409668742" duration="330000" />
       <workItem from="1547410161854" duration="4000" />
       <workItem from="1547444399368" duration="226000" />
+      <workItem from="1547450164039" duration="652000" />
+      <workItem from="1547456602034" duration="12581000" />
+      <workItem from="1547479532670" duration="2094000" />
+      <workItem from="1547530154986" duration="591000" />
+      <workItem from="1547536544416" duration="15845000" />
+      <workItem from="1547567879844" duration="61000" />
+      <workItem from="1547568758462" duration="95000" />
+      <workItem from="1547569677458" duration="591000" />
+      <workItem from="1547610736548" duration="953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22621000" />
+    <option name="totallyTimeSpent" value="56084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="723" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24524158" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -325,13 +393,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/screenshot.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/m-page-pageMenu.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/m-page-pageGallery.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/m-page-pageLunch.php" />
@@ -339,80 +400,76 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-pageGallery.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-pageMenu.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-pageLunch.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/loop.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="280">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1860">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageGallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="129" selection-start-line="24" selection-start-column="129" selection-end-line="24" selection-end-column="129" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#4;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#5;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#6;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#7;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#8;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#9;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#10;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#11;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#12;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#13;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#14;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#15;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#16;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#17;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#18;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#19;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageContacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="720">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="15" column="22" selection-start-line="15" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/single.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="139" column="51" selection-start-line="139" selection-start-column="51" selection-end-line="139" selection-end-column="51" />
+          <folding>
+            <element signature="n#customizer_function#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="149" column="16" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="16" />
+          <folding>
+            <element signature="e#223#336#0" />
+            <element signature="e#410#465#0" />
+            <element signature="e#472#872#0" />
+            <element signature="e#881#2509#0" />
+            <element signature="e#2530#2634#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="260">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -423,22 +480,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/style.less">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageGallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="245" column="29" selection-start-line="245" selection-start-column="29" selection-end-line="245" selection-end-column="29" />
-          <folding>
-            <element signature="e#472#872#0" />
-            <element signature="e#881#2455#0" />
-            <element signature="e#2476#2580#0" />
-            <element signature="e#2593#3716#0" />
-            <element signature="e#3866#4703#0" />
-            <element signature="e#6220#7414#0" />
-            <element signature="e#7424#10216#0" />
-            <element signature="e#10335#10338#0" />
-            <element signature="e#10390#10669#0" />
-            <element signature="e#10719#10969#0" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageContacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/patata/page-templates/page-pageLunch3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
         </state>
       </provider>
     </entry>
