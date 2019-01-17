@@ -117,7 +117,7 @@ header .inner .clear {
 }
 .pageLunch .inner .leftSide {
   margin: 40px;
-  width: 100%;
+  width: 62%;
   text-align: left;
   font-size: 0;
 }
@@ -165,14 +165,14 @@ header .inner .clear {
   -webkit-box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.5);
 }
-.pageLunch .inner .leftSide .text .rightSide {
+.pageLunch .inner .rightSide {
   display: inline-block;
   margin: 1%;
   text-align: center;
   vertical-align: center;
-  width: 47%;
+  width: 37%;
 }
-.pageLunch .inner .leftSide .text .rightSide img {
+.pageLunch .inner .rightSide img {
   padding: 0.5%;
   width: 100%;
   height: auto;
@@ -218,63 +218,40 @@ header .inner .clear {
   position: relative;
   cursor: pointer;
 }
-.pageGallery div.photoset {
-  padding: 2px;
-  background-color: #ffffff;
-  width: 75%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.menuQuick {
+  font-size: 0;
 }
-.pageGallery div.photoset .photo {
-  position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  min-width: calc(33.33333333%);
-  background-size: cover;
-  background-position: center;
-}
-@media screen and (max-width: 700px) {
-  .pageGallery div.photoset .photo {
-    min-width: calc(50%);
-  }
-}
-@media screen and (max-width: 460px) {
-  .pageGallery div.photoset .photo {
-    min-width: 100%;
-  }
-}
-.pageGallery div.photoset .photo:after {
-  padding-top: 83.33333%;
-  display: block;
-  content: "";
-}
-.pageGallery div.photoset .photo:before {
-  z-index: 2;
-  position: absolute;
-  content: "";
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  -webkit-box-shadow: inset 0 0 0 2px #ffffff;
-          box-shadow: inset 0 0 0 2px #ffffff;
-}
-.pageGallery div.photoset .photo:nth-child(1) {
+.menuQuick ul {
   width: 100%;
 }
-.pageGallery div.photoset.square .photo:after {
-  padding-top: 100%;
+.menuQuick ul li {
+  display: inline-block;
+  width: 100%;
 }
-.pageGallery div.photoset.portrait .photo:after {
-  padding-top: 120%;
+.menuQuick ul li figure {
+  width: 100%;
+}
+.menuQuick ul li figure img {
+  width: 100%;
+}
+.pageGallery {
+  font-size: 0;
+}
+.pageGallery ul {
+  width: 100%;
+}
+.pageGallery ul li {
+  display: inline-block;
+  width: calc(33.33333333%);
+}
+.pageGallery ul li figure {
+  width: 100%;
+}
+.pageGallery ul li figure img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .pageContacts .inner {
   background-color: #82a137;
@@ -489,6 +466,9 @@ header .inner .clear {
   header .inner .buttonSandwich {
     display: inline-block;
   }
+  .pageGallery ul li {
+    width: calc(50%);
+  }
 }
 @media screen and (max-width: 667px) {
   header {
@@ -499,5 +479,8 @@ header .inner .clear {
   }
   header .inner .buttonSandwich {
     display: inline-block;
+  }
+  .pageGallery ul li {
+    width: calc(100%);
   }
 }

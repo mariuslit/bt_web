@@ -1,30 +1,30 @@
-<?php /* Template Name: Dienos pietūs */ get_header(); ?>
+<?php /* Template Name: Dienos pietūs */
+get_header(); ?>
 
-	<section class="pageLunch">
-		<div class="inner">
-			<div class="leftSide">
-<!--            	<h3 class="">DIENOS PIETŪS-->
-			 <?php
-	                if (have_posts()) {
-	                    the_title( '<h3 class="lineAfter">', '</h3>' );
-	                }?>
-<!--				</h3>-->
-<!--				<h3 class="lineAfter">4 €</h3>-->
-				<div class="text">
-<!--					čia turi būti <p> tagai -->
-                    <?php
-                    if (have_posts()) {
-                        the_post();
-                        // spausdina visa content: ir tekstą ir paveikslėlius, išskyrus title
-                        echo get_the_content();
-                    }?>
-				</div>
-			</div>
+<style>
+	.pageLunch .inner {
+		background-color: <?php echo get_theme_mod('background_colorM'); ?>;
+		background-color: <?php echo get_theme_mod('footer_color'); ?>;
 
-			<div class="rightSide">
-<!--				<img class="rightSide" src="--><?php //echo get_template_directory_uri();?><!--/images/gallery/img-7.jpg" alt="Dienos pietūs">-->
+	}
+</style>
+
+<section class="pageLunch">
+	<div class="inner">
+		<div class="leftSide">
+			<h3 class="lineAfter"><?php echo get_theme_mod('text_title', 'Lorem Ipsum'); ?></h3>
+			<div class="text">
+				<p><?php echo get_theme_mod('patiekalas_pirmas', 'Lorem Ipsum'); ?></p>
+				<p><?php echo get_theme_mod('patiekalas_antras', 'Lorem Ipsum'); ?></p>
+				<p><?php echo get_theme_mod('dienos_pietu_pastabos', '-'); ?></p>
 			</div>
 		</div>
-	</section>
+
+		<div class="rightSide">
+			<img src="<?php echo get_theme_mod('img_patiekalas_pirmas'); ?>">
+			<img src="<?php echo get_theme_mod('img_patiekalas_antras'); ?>">
+		</div>
+	</div>
+</section>
 
 <?php get_footer(); ?>

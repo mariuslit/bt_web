@@ -51,18 +51,17 @@
                         <!--                        <a>01-16 tr</a>-->
                         <!--                        <a>01-15 an</a>-->
                         <!--                        <a>01-14 pr</a>-->
-                        <a class="aa" href="/wordpress2/index.php">wordpress2 mano projektas su WordPress - Restoranas PATATA</a>
+                        <a class="" href="/bt_2019_01_16_tr_rest_api/index.php">REST API</a>
                     </td>
                 </tr><!-- 3 -->
                 <tr>
                     <td><b>2 sav.</b>
-                        <!--                        <a class="weekend">01-13 sk</a>-->
+                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
+                        <a class="aa" href="/wordpress2/index.php">01-13 sk wordpress2 mano projektas su WordPress - Restoranas PATATA</a>
+                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <!--                        <a class="weekend">01-12 št</a>-->
-                                                <a>01-11 pn PRAKTIKA</a>
-                        <a class="" href="/bt_2019_01_11_pn_align_vertikal/index.php">Image and text vertical align examples</a>
-                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
-                        <a class="aa" href="/bt_2019_01_10_kr_patata/index.php">Restoranas PATATA</a>
-                        <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
+                        <a class="" href="/bt_2019_01_11_pn_align_vertikal/index.php">01-11 pn Image and text vertical align examples</a>
+                        <a class="aa" href="/bt_2019_01_10_kr_patata/index.php">01-10 kt Restoranas PATATA</a>
                         <a>01-09 tr Palo Alto su wordpress tęsinys</a>
                         <a class="" href="/wordpress/index.php">01-08 an <span class="red">wordpress</span> Palo Alto</a>
                         <a class="" href="/bt_2019_01_08_an_TomoPuslapis/index.php">Tomo Palo Alto projektas</a>

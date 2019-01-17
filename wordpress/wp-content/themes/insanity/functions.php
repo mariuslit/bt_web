@@ -33,7 +33,7 @@ function customizer_function($wp_customize){
 
     // Footer BG color 'Footerio spalva'
     $wp_customize->add_setting('footer_color', array(
-        'default' => 'Lorem Ipsum',
+        'default' => '#000000',
         'transport' => 'refresh',
     ));
 

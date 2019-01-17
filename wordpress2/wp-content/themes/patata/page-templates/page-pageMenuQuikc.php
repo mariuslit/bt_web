@@ -1,7 +1,7 @@
-<?php /* Template Name: Galerija */
+<?php /* Template Name: Greitasis meniu */
 get_header(); ?>
 
-<section class="pageGallery">
+<section class="menuQuick">
 	<div class="inner">
         <?php
         if (have_posts()) {
