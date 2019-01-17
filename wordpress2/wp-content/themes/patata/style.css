@@ -68,8 +68,6 @@ header .inner .rightSide li a {
 }
 header .inner .rightSide li:hover {
   cursor: pointer;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), to(#ffe93d));
-  background-image: linear-gradient(#ffffff 50%, #ffe93d);
 }
 header .inner .buttonSandwich {
   display: none;
@@ -254,7 +252,7 @@ header .inner .clear {
      object-fit: cover;
 }
 .pageContacts .inner {
-  background-color: #82a137;
+  background-color: #ffe93d;
   color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,7 +335,6 @@ header .inner .clear {
   border-bottom: 5px solid #72261900;
 }
 .footer .bottom_menu a:hover {
-  border-bottom: 5px solid #ffe93d;
   cursor: pointer;
 }
 .footer .bottom_menu li {
@@ -452,9 +449,6 @@ header .inner .clear {
   text-decoration: none;
   color: #607D8B;
   display: inline;
-}
-.footer .solution a:hover {
-  color: #82a137;
 }
 @media screen and (max-width: 1023px) {
   header {

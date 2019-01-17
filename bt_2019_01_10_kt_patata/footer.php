@@ -1,25 +1,21 @@
-<!-- footer kaip čili pizza -->
-
 <footer class="footer">
 	<div class="inner">
 		<div class="bottom_menu">
 			<ul>
 				<li><a href="#">Rezervuoti vietą</a></li>
 				<li><a href="#">Banketai</a></li>
-				<li><a href="#">Atsiliepimai</a></li>
+				<li><a href="#">Gedulingi pietūs</a></li>
 				<li><a href="#">Apie mus</a></li>
+				<li><a href="#">Atsiliepimai</a></li>
 			</ul>
 
 		</div>
 
-		<!--------------------------------------------------->
 		<div class="innerMiddle">
 			<div class="inner logo">
 				<img class="first" src="images/logo.jpg" alt="logo">
 				<img class="second" src="images/footer-idea.png" alt="logo">
 			</div>
-<!--			<div class="logo">-->
-<!--			</div>-->
 
 			<div class="inner2">
 				<div class="block leftSide">
@@ -28,6 +24,7 @@
 					<p>email: patatakaunas@gmail.com</p>
 					<p>adresas: V. Krėvės pr. 49s</p>
 					<p>49438 Kaunas</p>
+					<br>
 					<p>Darbo laikas 10:00 - 22:00</p>
 				</div>
 
@@ -45,6 +42,9 @@
 							<p>Tinka žmonių grupėms</p>
 						</li>
 					</ul>
+				</div>
+
+				<div class="block center">
 					<ul>
 						<li>
 							<h2>tagai</h2>
@@ -61,25 +61,32 @@
 					<a class="" href="https://www.facebook.com/patatakaunas/">
 						<img src="images/logo_facebook.png" alt="logo">
 					</a>
-					<a class="" href="https://www.facebook.com/patatakaunas/">
-						<img src="images/logo_twitter.png" alt="logo">
-					</a>
-					<a class="" href="https://www.facebook.com/patatakaunas/">
-						<img src="images/logo_p.png" alt="logo">
-					</a>
+
+					<button onclick="scrollWin()">
+						<img src="images/up.png" alt="logo">
+<!--						<a class="" href="">-->
+<!--						</a>-->
+						<!--						<img src="images/up.png" alt="logo">-->
+					</button>
+
+					<script>
+                        function scrollWin() {
+                            window.scrollTo(0, 0);
+                        }
+					</script>
+
 				</div>
 			</div>
 		</div>
 
-		<!--------------------------------------------------->
 		<hr>
 
 		<ul class="solution">
 			<li class="text">Visos teisės saugomos © PATATA</li>
-			<li>Sprendimas:</li>
 			<li>
-				<a href="http://localhost/bt_11_19_start2/index.php" target="_blank" rel="noopener"
-				   aria-label="*aria_link_opens_new_tab*">UAB "MariusDev"
+				<p>Sprendimas:</p>
+				<a href="https://www.facebook.com/mariuslit" target="_blank" rel="noopener"
+				   aria-label="*aria_link_opens_new_tab*">Marius Litvinas
 				</a>
 			</li>
 		</ul>

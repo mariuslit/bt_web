@@ -22,6 +22,24 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
 	<!--	<script src="javascript.js" defer></script>-->
+	<style>
+		/* header meniu */
+		header .rightSide a:hover {
+			 background-image: linear-gradient(white 50%, <?php echo get_theme_mod('fono_spalva'); ?>);
+		 }
+
+		/* footer meniu */
+		footer .bottom_menu a:hover{
+			border-bottom: 5px solid <?php echo get_theme_mod('fono_spalva'); ?>;
+		}
+		footer .innerMiddle .inner2 .block a:hover{
+			background-color: <?php echo get_theme_mod('fono_spalva'); ?>;
+		}
+		footer .solution a:hover{
+			color: <?php echo get_theme_mod('fono_spalva'); ?>;
+		}
+	</style>
+
 </head>
 <body>
 

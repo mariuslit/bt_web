@@ -194,6 +194,77 @@ header .inner .clear {
   position: relative;
   cursor: pointer;
 }
+.pageMenuQuick {
+  font-size: 0;
+}
+.pageMenuQuick img {
+  width: 100%;
+}
+.pageMenuQuick ul li {
+  display: inline-block;
+  width: 100%;
+}
+.pageMenuQuick ul li figure {
+  width: 100%;
+}
+.pageMeniuGalleryx div.photoset {
+  padding: 2px;
+  background-color: #ffffff;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.pageMeniuGalleryx div.photoset .photo {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: calc(33.33333333%);
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 1023px) {
+  .pageMeniuGalleryx div.photoset .photo {
+    min-width: calc(50%);
+  }
+}
+@media screen and (max-width: 667px) {
+  .pageMeniuGalleryx div.photoset .photo {
+    min-width: 100%;
+  }
+}
+.pageMeniuGalleryx div.photoset .photo:after {
+  padding-top: 83.33333%;
+  display: block;
+  content: "";
+}
+.pageMeniuGalleryx div.photoset .photo:before {
+  z-index: 2;
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  -webkit-box-shadow: inset 0 0 0 2px #ffffff;
+          box-shadow: inset 0 0 0 2px #ffffff;
+}
+.pageMeniuGalleryx div.photoset .photo:nth-child(1) {
+  width: 100%;
+}
+.pageMeniuGalleryx div.photoset.square .photo:after {
+  padding-top: 100%;
+}
+.pageMeniuGalleryx div.photoset.portrait .photo:after {
+  padding-top: 120%;
+}
 .pageGallery div.photoset {
   padding: 2px;
   background-color: #ffffff;
@@ -217,12 +288,12 @@ header .inner .clear {
   background-size: cover;
   background-position: center;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1023px) {
   .pageGallery div.photoset .photo {
     min-width: calc(50%);
   }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 667px) {
   .pageGallery div.photoset .photo {
     min-width: 100%;
   }
@@ -311,6 +382,7 @@ header .inner .clear {
 .footer {
   background-color: #181818;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 .footer .bottom_menu {
   padding: 35px 0 20px;
@@ -398,11 +470,11 @@ header .inner .clear {
   text-transform: capitalize;
   letter-spacing: 1.2px;
   white-space: nowrap;
+  margin-bottom: 50px;
 }
 .footer .inner2 .block {
   padding: 20px;
   border-radius: 10px;
-  margin-bottom: 50px;
 }
 .footer .inner2 .block h2 {
   padding-bottom: 10px;
@@ -426,13 +498,40 @@ header .inner .clear {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.footer .inner2 .center ul {
+  margin-left: 10px;
+}
+.footer .inner2 .rightSide {
+  text-align: center;
+}
 .footer .inner2 .rightSide a {
-  margin: 10px;
+  margin: 30px auto;
   padding: 3px;
   display: block;
   width: 34px;
   height: 34px;
   border-radius: 50%;
+}
+.footer .inner2 .rightSide a img {
+  width: 100%;
+  height: 100%;
+}
+.footer .inner2 .rightSide button {
+  margin: 30px auto;
+  padding: 3px;
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  background: none;
+  border: none;
+}
+.footer .inner2 .rightSide button img {
+  width: 100%;
+  height: 100%;
+}
+.footer .inner2 .rightSide button:hover {
+  background-color: #ffe93d;
 }
 .footer .solution {
   display: -webkit-box;
@@ -444,32 +543,29 @@ header .inner .clear {
   padding: 15px 0;
   color: #607D8B;
 }
+.footer .solution p {
+  display: inline;
+}
 .footer .solution a {
-  text-decoration: none;
   color: #607D8B;
+  display: inline;
 }
 .footer .solution a:hover {
-  color: #82a137;
+  color: #ffe93d;
 }
 @media screen and (max-width: 1023px) {
-  header {
-    background-color: #82a137;
-  }
-  header .inner .rightSide {
-    display: none;
-  }
-  header .inner .buttonSandwich {
-    display: inline-block;
+  .inner {
+    width: 90%;
+    max-width: 855px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 667px) {
-  header {
-    background-color: #9e9e9e;
-  }
-  header .inner .rightSide {
-    display: none;
-  }
-  header .inner .buttonSandwich {
-    display: inline-block;
+  .inner {
+    width: 95%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

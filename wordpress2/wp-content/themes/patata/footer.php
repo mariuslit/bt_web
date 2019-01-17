@@ -5,8 +5,9 @@
 			<ul>
 				<li><a href="#">Rezervuoti vietą</a></li>
 				<li><a href="#">Banketai</a></li>
-				<li><a href="#">Atsiliepimai</a></li>
+				<li><a href="#">Gedulingi pietūs</a></li>
 				<li><a href="#">Apie mus</a></li>
+				<li><a href="#">Atsiliepimai</a></li>
 			</ul>
 
 		</div>
@@ -35,7 +36,7 @@
 						<li>
 							<h2>Paslaugos</h2>
 							<p>Pietūs / vkarienė</p>
-							<p>Kava and gėrimai</p>
+							<p>Kava ir gėrimai</p>
 							<p>Priima rezervacijas</p>
 							<p>Praeiviai laukiami</p>
 							<p>Išsinešimui</p>
@@ -60,12 +61,12 @@
 					<a class="" href="https://www.facebook.com/patatakaunas/">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/logo_facebook.png" alt="logo">
 					</a>
-					<a class="" href="https://www.facebook.com/patatakaunas/">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/logo_twitter.png" alt="logo">
-					</a>
-					<a class="" href="https://www.facebook.com/patatakaunas/">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/logo_p.png" alt="logo">
-					</a>
+<!--					<a class="" href="https://www.facebook.com/patatakaunas/">-->
+<!--						<img src="--><?php //echo get_template_directory_uri(); ?><!--/images/logo_twitter.png" alt="logo">-->
+<!--					</a>-->
+<!--					<a class="" href="https://www.facebook.com/patatakaunas/">-->
+<!--						<img src="--><?php //echo get_template_directory_uri(); ?><!--/images/logo_p.png" alt="logo">-->
+<!--					</a>-->
 				</div>
 			</div>
 		</div>
@@ -77,8 +78,8 @@
 			<li class="text">Visos teisės saugomos © PATATA</li>
 			<li>
 				<p>Sprendimas:</p>
-				<a href="http://localhost/bt_11_19_start2/index.php" target="_blank" rel="noopener"
-				   aria-label="*aria_link_opens_new_tab*">UAB "MariusDev"
+				<a href="https://www.facebook.com/mariuslit" target="_blank" rel="noopener"
+				   aria-label="*aria_link_opens_new_tab*">Marius Litvinas
 				</a>
 			</li>
 		</ul>

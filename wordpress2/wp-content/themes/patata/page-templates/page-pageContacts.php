@@ -1,6 +1,12 @@
 <?php /* Template Name: Kontaktai */ get_header(); ?>
 
-	<section class="pageContacts">
+<style>
+	.pageContacts .inner {
+		background-color: <?php echo get_theme_mod('fono_spalva'); ?>;
+	}
+</style>
+
+<section class="pageContacts">
 		<div class="inner">
 			<div class="leftSide google-maps">
 				<div class="inner2">

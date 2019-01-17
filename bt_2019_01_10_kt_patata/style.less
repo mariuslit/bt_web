@@ -89,9 +89,6 @@ header {
           background-image: linear-gradient(white 50%, @color-yellow);
         }
       }
-
-      a {
-      }
     }
 
     .buttonSandwich {
@@ -239,8 +236,32 @@ header {
   }
 }
 
-.pageGallery {
+.pageMenuQuick {
+  font-size: 0;
+  //width: 100%;
+  img {
+    width: 100%;
+    //object-fit: cover;
+  }
+
+  ul {
+
+    li {
+      display: inline-block;
+      width: 100%;
+
+      figure {
+        width: 100%;
+
+      }
+    }
+  }
+}
+
+.pageMeniuGalleryx {
+
   div.photoset {
+
     padding: 2px;
     background-color: #ffffff;
     //max-width: 600px;
@@ -248,25 +269,30 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
     .photo {
+
       position: relative;
       flex-grow: 1; //They will fill space but actually want to take up the smallest space possible doing it, so you just need to stop it getting too small with min-width (otherwise they all bunch on the same line)
       min-width: calc(100% / 3); //This is the maximum number (3) in a row bit
       background-size: cover;
       background-position: center;
 
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 1023px) {
         min-width: calc(100% / 2); //As simple as this for responsiveness without a delay you would get with JavaScript
       }
-      @media screen and (max-width: 460px) {
+
+      @media screen and (max-width: 667px) {
         min-width: 100%;
       }
+
       &:after {
         //Aspect Ratio
         padding-top: 83.33333%; //For 5:6 height to width ratio
         display: block;
         content: "";
       }
+
       &:before {
         //Gaps
         z-index: 2;
@@ -278,6 +304,7 @@ header {
         left: 0px;
         box-shadow: inset 0 0 0 2px #ffffff; //Cheaty way to make it look like there are gaps 😜
       }
+
       &:nth-child(1) {
         //Make first image big
         width: 100%;
@@ -287,6 +314,70 @@ header {
     &.square .photo:after {
       padding-top: 100%;
     }
+
+    &.portrait .photo:after {
+      padding-top: 120%;
+    }
+  }
+}
+
+.pageGallery {
+
+  div.photoset {
+
+    padding: 2px;
+    background-color: #ffffff;
+    //max-width: 600px;
+    width: @innerWidth;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .photo {
+
+      position: relative;
+      flex-grow: 1; //They will fill space but actually want to take up the smallest space possible doing it, so you just need to stop it getting too small with min-width (otherwise they all bunch on the same line)
+      min-width: calc(100% / 3); //This is the maximum number (3) in a row bit
+      background-size: cover;
+      background-position: center;
+
+      @media screen and (max-width: 1023px) {
+        min-width: calc(100% / 2); //As simple as this for responsiveness without a delay you would get with JavaScript
+      }
+
+      @media screen and (max-width: 667px) {
+        min-width: 100%;
+      }
+
+      &:after {
+        //Aspect Ratio
+        padding-top: 83.33333%; //For 5:6 height to width ratio
+        display: block;
+        content: "";
+      }
+
+      &:before {
+        //Gaps
+        z-index: 2;
+        position: absolute;
+        content: "";
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        box-shadow: inset 0 0 0 2px #ffffff; //Cheaty way to make it look like there are gaps 😜
+      }
+
+      &:nth-child(1) {
+        //Make first image big
+        width: 100%;
+      }
+    }
+
+    &.square .photo:after {
+      padding-top: 100%;
+    }
+
     &.portrait .photo:after {
       padding-top: 120%;
     }
@@ -366,6 +457,7 @@ header {
   background-color: #181818;
   //background-color: @color-green;
   margin-top: 50px;
+  padding-bottom: 50px;
 
   .bottom_menu {
     padding: 35px 0 20px;
@@ -461,11 +553,11 @@ header {
     text-transform: capitalize;
     letter-spacing: 1.2px;
     white-space: nowrap;
+      margin-bottom: 50px;
 
     .block {
       padding: 20px;
       border-radius: 10px;
-      margin-bottom: 50px;
       h2 {
         padding-bottom: 10px;
         font-weight: bold;
@@ -484,22 +576,50 @@ header {
       }
     }
 
-    .leftSide {
-    }
-
     .center {
       display: flex;
       justify-content: space-between;
+      ul{
+        margin-left: 10px;
+      }
     }
 
     .rightSide {
+      text-align: center;
+
       a {
-        margin: 10px;
+        margin: 30px auto;
         padding: 3px;
         display: block;
         width: 34px;
         height: 34px;
         border-radius: 50%;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      button {
+        margin: 30px auto;
+        padding: 3px;
+        display: block;
+        width: 34px;
+        height: 34px;
+        border-radius: 5px;
+        background: none;
+        border: none;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        &:hover {
+          background-color: @color-yellow;
+          //color: black;
+        }
       }
 
     }
@@ -510,11 +630,17 @@ header {
     padding: 15px 0;
     color: #607D8B;
 
+    p {
+      display: inline;
+    }
+
     a {
-      text-decoration: none;
+      //text-decoration: none;
       color: #607D8B;
+      display: inline;
+
       &:hover {
-        color: @color-green;
+        color: @color-yellow;
       }
     }
   }
@@ -532,23 +658,23 @@ header {
   @innerWidth: 90%;
   @innerMaxWidth: 855px;
 
+  .inner {
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+  }
+
   header {
-    background-color: @color-green;
+    //background-color: @color-green;
 
     .inner .rightSide {
-      display: none;
+      //display: none;
     }
 
+    // buttonSandwich laikinai nerodomas
     .inner .buttonSandwich {
-      display: inline-block;
+      //display: inline-block;
     }
   }
 
-  section {
-  }
-
-  footer {
-  }
 }
 
 // 3 phone
@@ -557,23 +683,22 @@ header {
   @innerWidth: 95%;
   @innerMaxWidth: 650px;
 
+  .inner {
+    .f--width-max-width(@innerWidth, @innerMaxWidth);
+  }
+
   header {
-    background-color: @color-grey;
+    //background-color: @color-grey;
 
     .inner .rightSide {
-      display: none;
+      //display: none;
     }
 
     .inner .buttonSandwich {
-      display: inline-block;
+      //display: inline-block;
     }
   }
 
-  section {
-  }
-
-  footer {
-  }
 }
 
 

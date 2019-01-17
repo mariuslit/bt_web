@@ -3,9 +3,7 @@ get_header(); ?>
 
 <style>
 	.pageLunch .inner {
-		background-color: <?php echo get_theme_mod('background_colorM'); ?>;
-		background-color: <?php echo get_theme_mod('footer_color'); ?>;
-
+		background-color: <?php echo get_theme_mod('fono_spalva'); ?>;
 	}
 </style>
 

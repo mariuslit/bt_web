@@ -173,18 +173,18 @@ function customizer_function_dienos_petus($wp_customize){
         )));
 
     // 3 Fono spalva
-    $wp_customize->add_setting('background_colorM', array(
+    $wp_customize->add_setting('fono_spalva', array(
         'default' => '#ffe93d',
         'transport' => 'refresh',
     ));
 
     $wp_customize->add_control(new WP_Customize_Color_Control(
         $wp_customize,
-        'background_colorM',
+        'fono_spalva',
         array(
             'label' => 'Fono spalva',
             'section' => 'dienos_pietus',
-            'settings' => 'background_colorM'
+            'settings' => 'fono_spalva'
         )));
 }
 
