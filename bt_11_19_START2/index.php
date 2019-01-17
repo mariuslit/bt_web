@@ -57,11 +57,12 @@
                 <tr>
                     <td><b>2 sav.</b>
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
-                        <a class="aa" href="/wordpress2/index.php">01-13 sk wordpress2 mano projektas su WordPress - Restoranas PATATA</a>
+                        <a class="" href="/wordpress2/index.php">01-13 sk wordpress2 <span class="red">PATATA su WordPress</span></a>
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <!--                        <a class="weekend">01-12 št</a>-->
                         <a class="" href="/bt_2019_01_11_pn_align_vertikal/index.php">01-11 pn Image and text vertical align examples</a>
-                        <a class="aa" href="/bt_2019_01_10_kr_patata/index.php">01-10 kt Restoranas PATATA</a>
+                        <a class="aa" href="/bt_2019_01_10_kt_patata/index.php">01-10 kt Restoranėlis <span class="red">PATATA new design</span></a>
+                        <a class="" href="/bt_2019_01_10_kt_patata/index.php">01-10 kt <span class="red">Restoranėlis PATATA</span> hostingas patata.gq</a>
                         <a>01-09 tr Palo Alto su wordpress tęsinys</a>
                         <a class="" href="/wordpress/index.php">01-08 an <span class="red">wordpress</span> Palo Alto</a>
                         <a class="" href="/bt_2019_01_08_an_TomoPuslapis/index.php">Tomo Palo Alto projektas</a>
