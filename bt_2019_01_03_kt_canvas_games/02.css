@@ -1,48 +1,50 @@
 /*   ekranas 1366x768 px   */
 
-body{
-    background-image: url("images/game-background.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    color: #f1c40f;
-
+body {
+	background-image: url("images/game-background.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	color: #f1c40f;
 }
 
-#canvas1,
+img {
+	border: 10px solid red;
+}
+
 #canvas {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid #c0392b;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #c0392b;
 }
 
-h1{
-    text-align: center;
-    font-size: 36px;
+h1 {
+	text-align: center;
+	font-size: 36px;
 }
 
-section{
-    padding-top: 20px;
+section {
+	padding-top: 20px;
 }
 
-h2{
-    padding-top: 20px;
-    font-size: 24px;
+h2 {
+	padding-top: 20px;
+	font-size: 24px;
 }
 
-h3{
-    display: inline-block;
-    padding-top: 20px;
-    font-size: 18px;
+h3 {
+	display: inline-block;
+	padding-top: 20px;
+	font-size: 18px;
 }
 
-span{
-    display: inline-block;
-    margin-left: 10px;
+span {
+	display: inline-block;
+	margin-left: 10px;
 
 }
 

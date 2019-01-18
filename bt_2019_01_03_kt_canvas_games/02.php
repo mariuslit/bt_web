@@ -26,10 +26,7 @@
 
 </section>
 
-
 <canvas id="canvas" height="500" width="500"></canvas>
-<!--<canvas id="canvas1" height="500" width="500"></canvas>-->
-<!--<canvas id="canvas2" height="500" width="500"></canvas>-->
 
 </body>
 </html>

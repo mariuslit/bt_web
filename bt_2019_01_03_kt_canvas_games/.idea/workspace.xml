@@ -2,88 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf664be-b032-4c47-b373-523238b3f184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_11_19_START2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_11_19_START2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/.idea/bt_12_10_pr_dviratis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/01.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/01.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/02.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/02.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/YEBO_Bicycle_Theme.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/css copy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/files/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/fonts/SourceSansPro-ExtraLight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/Downloads - Shortcut.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/IconTwitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis1logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis2logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis3logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis4logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis5logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis6logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis7logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/dviratis8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/logo_YEBO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/logo_facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/logo_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/logo_twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/backgroundColor-64c29e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis444.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis5-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis555.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis6logo-282f35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis6logoCenter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/images/picture8/dviratis8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/namu darbas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_12_10_pr_dviratis2/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/02.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02.php" beforeDir="false" afterPath="$PROJECT_DIR$/02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/.idea/bt_2019_01_07_pr.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/01.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/01.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/01.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/02.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/02.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/02.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/files/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/fonts/SourceSansPro-ExtraLight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/images/back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/less/01.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/less/02.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/less/about-less.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/less/style.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_07_pr_php/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beep.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tone_error.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tone_positive.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kt_patataNewDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_2019_01_10_kt_patataNewDesign/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,27 +45,30 @@
     <session id="-875057416">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="239" />
-          <entry key="JavaScript" value="1544" />
-          <entry key="PHP" value="245" />
+          <entry key="CSS" value="272" />
+          <entry key="JavaScript" value="2091" />
+          <entry key="PHP" value="248" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="6" />
           <entry key="PHP" value="2" />
           <entry key="TypeScript" value="2" />
         </counts>
@@ -147,7 +76,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.46948355">
+    <splitter split-orientation="horizontal" split-proportion="0.63982433">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -162,8 +91,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="640">
-                  <caret line="32" selection-start-line="32" selection-end-line="32" />
+                <state relative-caret-position="540">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
                 </state>
               </provider>
             </entry>
@@ -171,8 +100,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/02.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+                <state relative-caret-position="320">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
                 </state>
               </provider>
             </entry>
@@ -180,10 +109,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+                <state relative-caret-position="317">
+                  <caret line="127" column="22" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
                   <folding>
-                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="n#!!block;n#update#0;n#Game#0" />
+                    <element signature="n#Enemy#0" />
                   </folding>
                 </state>
               </provider>
@@ -196,10 +126,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/02.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="131">
-                  <caret line="175" selection-start-line="175" selection-end-line="176" />
+                <state relative-caret-position="280">
+                  <caret line="14" column="17" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="17" />
                   <folding>
-                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="n#!!block;n#update#0;n#Game#0" />
+                    <element signature="n#Enemy#0" />
                   </folding>
                 </state>
               </provider>
@@ -281,7 +212,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -318,14 +249,18 @@
       <workItem from="1546927403661" duration="338000" />
       <workItem from="1546931035005" duration="1793000" />
       <workItem from="1546950981995" duration="144000" />
+      <workItem from="1547789907663" duration="5692000" />
+      <workItem from="1547798939616" duration="1248000" />
+      <workItem from="1547825261559" duration="329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38318000" />
+    <option name="totallyTimeSpent" value="45587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="723" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.329429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,24 +343,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="540">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="175" selection-start-line="175" selection-end-line="176" />
+        <state relative-caret-position="280">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#update#0;n#Game#0" />
+            <element signature="n#Enemy#0" />
           </folding>
         </state>
       </provider>
