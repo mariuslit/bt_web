@@ -28,7 +28,7 @@
 <header>
 	<nav class="inner">
 		<div class="leftSide">
-			<a class="" href="index.php"><img class="logo" src="images/logo.jpg" alt="logo"></a>
+			<a class="" href="http://patata.gq"><img class="logo" src="images/logo.jpg" alt="logo"></a>
 		</div>
 		<div class="rightSide">
 			<a class="" href="index.php">DIENOS PIETŪS</a>

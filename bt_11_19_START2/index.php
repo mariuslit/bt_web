@@ -42,14 +42,16 @@
                 <tr>
                     <td><b>3 sav.</b>
                         <a><span class="months">SAUSIS</span></a>
-                        <!--
-<a class="weekend">01-20 sk</a>
-<a class="weekend">01-19 št</a>
-<a>01-18 pn PRAKTIKA</a>
--->
-                        <!--                        <a>01-17 kt <span class="red">web paskutinė paskaita</span></a>-->
-                        <!--                        <a>01-16 tr</a>-->
-                        <!--                        <a>01-15 an</a>-->
+
+                        <a class="weekend">01-20 sk</a>
+                        <a class="weekend">01-19 št</a>
+                        <a></a>
+                        <a class="txt" href="/bt_2019_01_18_pn_paskaita_kompiuteriu_architektura_tinklai/internetas.txt">01-18 pn paskaita kompiuterių architektūra ir tinklai</a>
+
+                        <a>01-17 kt <span class="red">web paskutinė paskaita</span></a>
+                        <a class="" href="/bt_2019_01_10_kt_patataNewDesign/index.php">01-10 kt Restoranėlis <span class="red">PATATA new design</span></a>
+                        <a>01-16 tr</a>
+                        <a>01-15 an</a>
                         <!--                        <a>01-14 pr</a>-->
                         <a class="" href="/bt_2019_01_16_tr_rest_api/index.php">REST API</a>
                     </td>
@@ -61,7 +63,6 @@
                         <!----------------------------------------------------------- ACTIVE PROJECT class="aa" -->
                         <!--                        <a class="weekend">01-12 št</a>-->
                         <a class="" href="/bt_2019_01_11_pn_align_vertikal/index.php">01-11 pn Image and text vertical align examples</a>
-                        <a class="aa" href="/bt_2019_01_10_kt_patata/index.php">01-10 kt Restoranėlis <span class="red">PATATA new design</span></a>
                         <a class="" href="/bt_2019_01_10_kt_patata/index.php">01-10 kt <span class="red">Restoranėlis PATATA</span> hostingas patata.gq</a>
                         <a>01-09 tr Palo Alto su wordpress tęsinys</a>
                         <a class="" href="/wordpress/index.php">01-08 an <span class="red">wordpress</span> Palo Alto</a>

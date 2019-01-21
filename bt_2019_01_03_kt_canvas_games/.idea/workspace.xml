@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf664be-b032-4c47-b373-523238b3f184" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bt_11_19_START2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_11_19_START2/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.css" beforeDir="false" afterPath="$PROJECT_DIR$/02.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.php" beforeDir="false" afterPath="$PROJECT_DIR$/02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beep.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tone_error.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tone_positive.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kt_patataNewDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_2019_01_10_kt_patataNewDesign/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kt_patata/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_2019_01_10_kt_patata/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,17 +40,19 @@
     <session id="-875057416">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -212,7 +209,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bt_2019_01_10_kt_patataNewDesign" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -252,17 +249,18 @@
       <workItem from="1547789907663" duration="5692000" />
       <workItem from="1547798939616" duration="1248000" />
       <workItem from="1547825261559" duration="329000" />
+      <workItem from="1547880645655" duration="568000" />
+      <workItem from="1547881862217" duration="127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45587000" />
+    <option name="totallyTimeSpent" value="46282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="723" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.329429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2035139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -291,13 +289,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/canvasGycio/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/canvasGycio/style.css">
       <provider selected="true" editor-type-id="text-editor">

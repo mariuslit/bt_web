@@ -27,11 +27,11 @@
   background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000000);
 }
 .stage {
-  height: 300px;
+  height: 200px;
   width: 500px;
   margin: auto;
   position: absolute;
-  top: 0;
+  top: -150px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -46,15 +46,15 @@
   position: absolute;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  -webkit-animation: xxxx 5s infinite alternate ease-in-out -7.5s;
-          animation: xxxx 5s infinite alternate ease-in-out -7.5s;
+  -webkit-animation: rotate_text 5s infinite alternate ease-in-out -7.5s;
+          animation: rotate_text 5s infinite alternate ease-in-out -7.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-transform: rotateY(40deg) rotateX(33deg) translateZ(0);
           transform: rotateY(40deg) rotateX(33deg) translateZ(0);
 }
 .stage .layer:after {
-  font: 150px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+  font: 150px/1 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
   content: 'Patata';
   white-space: pre;
   text-align: center;
@@ -163,13 +163,13 @@
   color: #fff;
   text-shadow: none;
 }
-@-webkit-keyframes xxxx {
+@-webkit-keyframes rotate_text {
   100% {
     -webkit-transform: rotateY(-40deg) rotateX(-43deg);
             transform: rotateY(-40deg) rotateX(-43deg);
   }
 }
-@keyframes xxxx {
+@keyframes rotate_text {
   100% {
     -webkit-transform: rotateY(-40deg) rotateX(-43deg);
             transform: rotateY(-40deg) rotateX(-43deg);
