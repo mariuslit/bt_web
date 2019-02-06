@@ -45,7 +45,6 @@
 
                         <a class="weekend">01-20 sk</a>
                         <a class="weekend">01-19 št</a>
-                        <a></a>
                         <a class="txt" href="/bt_2019_01_18_pn_paskaita_kompiuteriu_architektura_tinklai/internetas.txt">01-18 pn paskaita kompiuterių architektūra ir tinklai</a>
 
                         <a>01-17 kt <span class="red">web paskutinė paskaita</span></a>

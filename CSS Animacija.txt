@@ -1,0 +1,45 @@
+div {
+    animation: example 5s linear 2s infinite alternate;
+}
+
+div {
+    animation-name: example;			vardas
+    animation-duration: 5s;			trukmë	
+
+    animation-timing-function: linear;		laikos kitimo bûdas
+		(linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;)
+		linear			The animation has the same speed from start to end	
+		ease			Default value. The animation has a slow start, then fast, before it ends slowly	
+		ease-in			The animation has a slow start	
+		ease-out		The animation has a slow end	
+		ease-in-out		The animation has both a slow start and a slow end	
+		step-start		Equivalent to steps(1, start)	
+		step-end		Equivalent to steps(1, end)	
+		steps(int,start|end)	Specifies a stepping function, with two parameters. The first parameter specifies the number of intervals in the function. It must be a positive integer (greater than 0). The second parameter, which is optional, is either the value "start" or "end", and specifies the point at which the change of values occur within the interval. If the second parameter is omitted, it is given the value "end"	
+		cubic-bezier(n,n,n,n)	Define your own values in the cubic-bezier function. Possible values are numeric values from 0 to 1	
+
+    animation-delay: 2s;			pradþios uþdelsimas
+
+    animation-iteration-count: infinite;	pakartojimai 
+		(number|infinite|initial|inherit)
+		number			A number that defines how many times an animation should be played. Default value is 1	
+		infinite		Specifies that the animation should be played infinite times (for ever)	
+
+    animation-direction: alternate;		animacijos atkûrimo kryptis 
+		(normal|reverse|alternate|alternate-reverse|initial|inherit)
+		normal			Default value. The animation is played as normal (forwards)	
+		reverse			The animation is played in reverse direction (backwards)	
+		alternate		The animation is played forwards first, then backwards	
+		alternate-reverse	The animation is played backwards first, then forwards	
+
+PAPILDOMAS
+
+    animation-fill-mode: 			bûsena prieð/po animacijos 
+		(none|forwards|backwards|both|initial|inherit;)
+		none			Default value. Animation will not apply any styles to the element before or after it is executing
+		forwards		The element will retain the style values that is set by the last keyframe (depends on animation-direction and animation-iteration-count)
+		backwards		The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period
+		both			The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions
+}
+
+

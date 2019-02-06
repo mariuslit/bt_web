@@ -1,0 +1,29 @@
+Photoshop
+
+ctrl+T transformavimas
+ctrl+D nuimti selection
+ctrl+H nuimti helperius (mëlynos juostos)
+
+Zoom
+----
+ alt + mouse Scroll wheel
+
+Kaip paþymëti elementà sluoksnyje su pele
+-----------------------------------------
+ árankiai: Move tool (V)
+ ctrl + left Mouse button (virðuje turi bûti nepaþymëta varnelë ant Auto-Select)
+
+Kaip iðmatuoti atstumus
+-----------------------
+ 1 rankiai: Rectangular Marquee tool (M)
+ 2 Eyedropper tool (I) - pakeisti á Ruler tool
+
+Kaip eksportuoti á .png
+-----------------------
+ sluoksnyje ant lemento spausti deðiná pelës klaviðà
+ Quick Eksport as PNG
+
+Kaip nukopijuoti CSS kodà
+-------------------------
+ sluoksnyje ant lemento spausti deðiná pelës klaviðà
+ Copy CSS

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f4a2b4-7d1a-4516-9b20-2f91cb12e002" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bt_11_19_START2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_11_19_START2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_03_kt_canvas_games/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_2019_01_03_kt_canvas_games/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bt_2019_01_10_kt_patata/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bt_2019_01_10_kt_patata/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newdesign.css" beforeDir="false" afterPath="$PROJECT_DIR$/newdesign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newdesign.less" beforeDir="false" afterPath="$PROJECT_DIR$/newdesign.less" afterDir="false" />
-    </list>
+    <list default="true" id="29f4a2b4-7d1a-4516-9b20-2f91cb12e002" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +62,14 @@
     <session id="1660122741">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -146,8 +140,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/newdesign.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+                <state relative-caret-position="260">
+                  <caret line="35" column="20" selection-start-line="35" selection-end-line="37" />
                 </state>
               </provider>
             </entry>
@@ -277,7 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,6 +292,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,11 +352,12 @@
       <workItem from="1547881993620" duration="1751000" />
       <workItem from="1547906413083" duration="678000" />
       <workItem from="1548021856414" duration="591000" />
+      <workItem from="1548083459074" duration="185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117862000" />
+    <option name="totallyTimeSpent" value="118047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newdesign.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -539,6 +527,13 @@
             <element signature="e#223#336#0" />
             <element signature="e#410#465#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newdesign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="35" column="20" selection-start-line="35" selection-end-line="37" />
         </state>
       </provider>
     </entry>
