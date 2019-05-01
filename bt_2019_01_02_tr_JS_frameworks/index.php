@@ -29,6 +29,7 @@
                 <a class="reaction" href="Gycio_NIKE/index.php">Klasės darbas Gyčio NIKE perdarymas su JQuery ir Less (koala)</a>
                 <a class="reaction" href="02.php">Namų darbas - Palo Alto layout'as</a>
                 <a class="reaction" href="03.php">Eksperimentas su padding + margin'ais</a>
+                <a class="reaction" href="04.php">klaidu tikrinimas</a>
             </div>
         </main>
 

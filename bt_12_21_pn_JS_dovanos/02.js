@@ -55,13 +55,13 @@ class Car {
 
 let cars = [];
 
-// IMAME DUOMENIS IŠ LOCAL ATMINTIES
+// IMAME DUOMENIS IŠ LOCAL ATMINTIES 
 // jeigu localStorage yra cars masyvas, tai paimti tą masyvą localStorage.getItem() ir priskirti cars masyvui cars = JSON.parse()
 if (localStorage.getItem('cars')) {
 
     let temporaryCars = JSON.parse(localStorage.getItem('cars'));
 
-    // tarpinis veiksmas, sutvarko cars objektų masyvą psimtą iš localStorage
+    // tarpinis veiksmas, sutvarko cars objektų masyvą paimtą iš localStorage
     for (let car of temporaryCars) {
 
         cars.push(new Car(car.name, car.speed));
@@ -183,7 +183,6 @@ tags_ID.buttonRace.addEventListener('click', () => {
 
 
 // ============== PRINT
-
 function spausdintiTable() {
 
     tags_ID.tableBody.innerHTML = '';
@@ -292,6 +291,4 @@ tags_ID.buttonStopRace.addEventListener('click', () => {
 
     spausdintiTable();
 });
-
-
 

@@ -57,7 +57,7 @@ UI.button.addEventListener('click', () => {
     // Adding gift to array
     gifts.push(gift);
 
-    // sukuriamas JSO objektas, kuris gauna gifts objektą (masyvą) ir patalpinamas kompiuterio localStorage atmintyje
+    // sukuriamas JSON objektas, kuris gauna gifts objektą (masyvą) ir patalpinamas kompiuterio localStorage atmintyje
     let giftsJson = JSON.stringify(gifts);
     localStorage.setItem('gifts', giftsJson);
 

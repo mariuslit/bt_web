@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f4a2b4-7d1a-4516-9b20-2f91cb12e002" name="Default Changelist" comment="" />
+    <list default="true" id="29f4a2b4-7d1a-4516-9b20-2f91cb12e002" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HTML.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML.xlsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +64,15 @@
     <session id="1660122741">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -353,11 +356,12 @@
       <workItem from="1547906413083" duration="678000" />
       <workItem from="1548021856414" duration="591000" />
       <workItem from="1548083459074" duration="185000" />
+      <workItem from="1549909722426" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118047000" />
+    <option name="totallyTimeSpent" value="118066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,7 +374,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="723" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.329429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -512,6 +515,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/newdesign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="35" column="20" selection-start-line="35" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -527,13 +537,6 @@
             <element signature="e#223#336#0" />
             <element signature="e#410#465#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newdesign.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="35" column="20" selection-start-line="35" selection-end-line="37" />
         </state>
       </provider>
     </entry>
