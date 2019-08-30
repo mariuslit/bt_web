@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <h1>Namų darbas</h1>
+            <h1>Klasė darbas</h1>
         </header>
 
         <div class="box1">

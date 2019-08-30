@@ -40,19 +40,23 @@
             </tr>
             <tbody>
                 <tr>
+                    <td><b>KITI DARBAI</b>
+                        <a class="txt" href="/bt_2019_05_15_keturbriaunis/index.php">2019-05-15 KETURBRIAUNIS</a>
+                    </td>
+                </tr><!-- 3 -->
+                <tr>
                     <td><b>3 sav.</b>
                         <a><span class="months">SAUSIS</span></a>
+                        <a class="txt" href="/bt_2019_05_15_keturbriaunis/01.php">05-15 KETURBRIAUNIS</a>
 
                         <a class="weekend">01-20 sk</a>
                         <a class="weekend">01-19 št</a>
                         <a class="txt" href="/bt_2019_01_18_pn_paskaita_kompiuteriu_architektura_tinklai/internetas.txt">01-18 pn paskaita kompiuterių architektūra ir tinklai</a>
-
-                        <a>01-17 kt <span class="red">web paskutinė paskaita</span></a>
-                        <a class="" href="/bt_2019_01_10_kt_patataNewDesign/index.php">01-10 kt Restoranėlis <span class="red">PATATA new design</span></a>
-                        <a>01-16 tr</a>
+                        <a><span class="months">01-17 kt web paskutinė paskaita</span></a>
+                        <a class="" href="/bt_2019_01_10_kt_patataNewDesign/index.php">01-17 kt Restoranėlis <span class="red">PATATA new design</span></a>
+                        <a class="" href="/bt_2019_01_16_tr_rest_api/index.php">01-16 tr REST API</a>
                         <a>01-15 an</a>
-                        <!--                        <a>01-14 pr</a>-->
-                        <a class="" href="/bt_2019_01_16_tr_rest_api/index.php">REST API</a>
+                        <a>01-14 pr</a>
                     </td>
                 </tr><!-- 3 -->
                 <tr>

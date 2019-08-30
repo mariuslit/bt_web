@@ -6,7 +6,7 @@ download TXT failas -	585KB	dazninis-TXT.zip
 apdorotas su Excel:
 1 filter =dkt
 2 Remove Duplicates
-3 kadangi žodžių per dauk išfilratavau kas šimtąjį atsitiktinį
+3 kadangi žodžių per daug išfilratavau kas šimtąjį atsitiktinį
         =ROUNDDOWN(RAND()*100;0)
         filter =1
 4 paruošiau įkėlimui į JS array formatu:

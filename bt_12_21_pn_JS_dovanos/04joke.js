@@ -4,7 +4,7 @@ const urlDefault = 'http://api.icndb.com/jokes/$jokenumber'; // visi juokeliai
 const urlStart = 'http://api.icndb.com/jokes/';
 const urlRandom = 'random/';
 
-let uI = {
+let UI = {
     selectCtegory: document.getElementById('selectCtegory'),
     selectNumberOfJoke: document.getElementById('selectNumberOfJoke'),
     selectHowManyJokesShow: document.getElementById('selectHowManyJokesShow'),
@@ -25,7 +25,7 @@ xhttp.onreadystatechange = function () {
 
         for (let i = 0; i < value.length; i++) {
 
-            uI.selectNumberOfJoke.innerHTML += `<option>${value[i].id}</option>`;
+            UI.selectNumberOfJoke.innerHTML += `<option>${value[i].id}</option>`;
 
             if (value[i].categories.length > 0) {
 
@@ -34,7 +34,7 @@ xhttp.onreadystatechange = function () {
                     if (!urlCategories.includes(value[i].categories[j])) {
 
                         urlCategories.push(value[i].categories[j]);
-                        uI.selectCtegory.innerHTML += `<option>${value[i].categories[j]}</option>`;
+                        UI.selectCtegory.innerHTML += `<option>${value[i].categories[j]}</option>`;
                     }
                 }
             }
@@ -48,17 +48,17 @@ xhttp.send();
 
 
 // button ACTION >>
-uI.action.addEventListener('click', () => {
+UI.action.addEventListener('click', () => {
     let output = '';
     let urlString = urlDefault;
 
-    if (uI.isCheckedRandomCheckBox.checked) {
-        urlString = urlStart + urlRandom + uI.selectHowManyJokesShow.value;
+    if (UI.isCheckedRandomCheckBox.checked) {
+        urlString = urlStart + urlRandom + UI.selectHowManyJokesShow.value;
     }
-    if (uI.selectNumberOfJoke.value > 0) {
-        urlString = urlStart + uI.selectNumberOfJoke.value;
+    if (UI.selectNumberOfJoke.value > 0) {
+        urlString = urlStart + UI.selectNumberOfJoke.value;
     }
-    if (uI.selectCtegory.value.length > 0) {
+    if (UI.selectCtegory.value.length > 0) {
         urlString = 'http://api.icndb.com/jokes/random?exclude=[nerdy,explicit]';
     }
 
@@ -70,9 +70,9 @@ uI.action.addEventListener('click', () => {
             let value = response.value;
             let sk = 0;
 
-            if (uI.selectNumberOfJoke.value > 0) {
+            if (UI.selectNumberOfJoke.value > 0) {
 
-                urlString = urlStart + uI.selectNumberOfJoke.value;
+                urlString = urlStart + UI.selectNumberOfJoke.value;
                 output += `<li>`;
                 output += `<p class="left1"></p>`;
                 output += `<p class="left2">(${value.id})</p>`;
@@ -91,7 +91,7 @@ uI.action.addEventListener('click', () => {
                 output += `</li>`
             }
 
-            uI.jokeList.innerHTML = output;
+            UI.jokeList.innerHTML = output;
         }
     };
     xhttp.open("GET", urlString);

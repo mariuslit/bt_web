@@ -192,7 +192,7 @@ let wordsLT155 = [
 ];
 
 // todo
-wordsLT = wordsLT155; // palengvintas masyvas, kol neveikia tikrasis
+wordsLT = wordsLT155; // palengvintas masyvas, kol neveikia tikrasis iš Json
 
 //wordsLT = ['asd']; // greitam testavimui
 

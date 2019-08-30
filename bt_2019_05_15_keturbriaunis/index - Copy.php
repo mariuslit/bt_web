@@ -3,6 +3,9 @@
     <head>
 
         <title>Index</title>
+        
+        <link rel="icon" href="images/favicon.png">
+        
         <meta charset="utf-8">
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
@@ -10,9 +13,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" type="text/css" href="files/reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <script src="javascript.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/javascript.js" defer></script>
     </head>
     <body>
         <div><a href="/bt_11_19_start2/index.php"><img src="images/back.png" alt="back"></a></div>
@@ -24,10 +28,11 @@
 
         <main>
             <div class="links">
-                <a>main:</a>
-                <a class="reaction" href="01.php">Klasės darbas - žaidimo kūrimas su canvas grafika</a>
-                <a class="reaction" href="canvasGycio/index.php">Klasės darbas - Gyčio žaidimas</a>
-                <a class="reaction" href="02.php">Namų darbas - RAKETŲ GAUDYKLĖ (mano)</a>
+                <a class="reaction" href="lt/pradzia.php">pradzia.php</a>
+                <a class="reaction" href="lt/apie-mus.php">apie-mus.php</a>
+                <a class="reaction" href="lt/paslaugos.php">paslaugos.php</a>
+                <a class="reaction" href="lt/darbai.php">darbai.php</a>
+                <a class="reaction" href="lt/kontaktai.php">kontaktai.php</a>
             </div>
         </main>
 
@@ -37,5 +42,13 @@
         </footer>
     </body>
 </html>
+
+
+
+
+
+
+
+
 
 
